@@ -1,4 +1,4 @@
-# 2.2.5 Empaquetar
+# Empaquetar
 
 **Descripción general**
 
