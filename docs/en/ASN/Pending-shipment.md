@@ -1,75 +1,107 @@
-# 2.2.6 Pending shipment
+# 2.2.6 Pending Shipment
 
 **2.2.6.1 Overview**
 
-The Pending Shipment section is the last step before confirming the packaging of a ship
-ment. From this module, users can check pending orders, assign pallets to said orders 
-and generate labels and documents necessary for the logistics process. This section 
-allows boxes from different purchase orders to be combined on the same pallet, if nec
-essary because that is how said orders have been packaged. 
+The Pending Shipment section is designed to manage shipments that have not yet been completed. From this module, users can view pending orders, assign pallets to those orders, and generate labels and documents necessary for the logistics process. This section allows you to group boxes from different purchase orders on the same pallet, if necessary because that is how those orders have been packaged.
 
 **2.2.6.2 Main features**
 
-#### 2.2.6.2.1 List of Pending Shipments
+#### 2.2.6.2.1 Pending Shipment List
 
-- A list is presented that includes key information for each pending shipment: 
+- A list is presented that includes key information about each pending shipment:
 
-  - Order Number: Unique identifier of the shipment. 
-  - Date: Date of order. 
-  - Address: Destination address of the shipment. 
-  - Number of Boxes: Total number of boxes associated with the shipment. 
+- Order Number: Unique identifier for the shipment.
+- Date: Date of the order.
+- Address: Shipment destination address.
+- Number of Boxes: Total number of boxes associated with the shipment.
+- Plant: Plant of the order destination (41SY, 40SZ...)
 
-- This list allows you to select one or more purchase orders to perform additional actions. 
+- This list allows you to select a specific shipment to perform additional actions.
 
-  If there are two or more orders with the same destination, they can be sent together, 
-  and the list with the pallets and boxes of the combined orders will be placed on the 
-  right of the page.
+If there are two or more orders with the same destination, they can be sent together, and the list of pallets and boxes of the orders together will be placed on the right side of the page.
 
 ![images](images/listPendantEnvy.png)
 
-#### 2.2.6.2.2 Pallet and box management 
+#### 2.2.6.2.2 Pallet and box management
 
-- Selecting an order number in the list enables a drop-down menu that shows the available 
-pallets and boxes with the following information: 
+Section: Joining boxes from different purchase orders on a pallet
 
-  - Unique pallet identifier. 
-  - Number of boxes on each pallet
-   
-- Users can add one or more pallets to the selected shipment by associating them with the 
-order. To do this, select the pallet you want to add to the selected order number and press the 
-'Assign Pallet' button. 
+At any time, we can select boxes from the tree that go to the same floor and move them to a pallet using the “Assign Pallet” button.
 
-![Captura_de_pantalla_2025-01-14_165638](images/addPalletEnvy.png)
+This button will open a pallet creation window identical to the one explained in “Packing”. It is also possible to select boxes that are already on a pallet to move them to another one.
 
-#### 2.2.6.2.3 Label generation 
+![image](images/imagendeWord.png)
 
-- Once the orders have been selected, the following buttons are enabled for generating labels: 
-Item and Box Labels: Generates individual labels for the items and boxes included in the 
-shipment. 
+Section: Join pallets
 
-- Pallet Labels: Generates labels to identify the pallets associated with the shipment. 
+If we want to send items from different purchase orders on the same pallet, we must proceed as follows:
 
-![Captura_de_pantalla_2025-01-14_165638](images/labelEnvy.png)
+In the window prior to “Pending shipment”: “Pack” or “Partial Shipments” we must pack said items in their own pallet and confirm them, in order to bring them to “Pending shipment”.
 
-![Captura_de_pantalla_2025-01-14_165638](images/labelOptionsEnvy.png)
+Once we can see said pallets in this window, we select them and click “Join”. This will create a single pallet that contains all the items from the pallets that have been joined together.
 
-![Captura_de_pantalla_2025-01-14_165638](images/lavelFromEnvy.png)
+![image](images/imagendeWord.png)
 
-#### 2.2.6.2.4 ASN Generation 
+Section: Delete pallets
 
-- Press the ASN button to create the shipping notification document. 
+Pallets that contain boxes can be deleted. Deleting boxes or pallets that contain items is not allowed.
 
-  - When you press it, all the boxes to be sent must be placed on pallets. If they are not in this way, this error will appear: 
+![image](images/imagendeWord.png)
 
-![Captura_de_pantalla_2025-01-14_165638](images/addEnvyAlert.png)
+Section: Tree filters
 
-  In the case where the boxes have been inserted into pallets, when clicking on the "ASN" button a confirmation message appears indicating that the process has been successful. 
+In the tree you can:
 
-![Captura_de_pantalla_2025-01-14_165638](images/addEnvyCorrect.png)
+Select All: will select both pallets and boxes that are not inside any pallet.
 
-#### 2.2.6.2.5 Frequently Asked Questions 
+Select Boxes: will select the boxes that are not inside any pallet.
 
-<b>How can I remove a pallet or box from the order? </b>
+FLOOR: this is a drop-down menu that allows you to choose a floor from those available depending on which floors the packages in the tree are directed to. When you choose one, the “Select All” and “Select Boxes” buttons will only select packages that go to that floor.
+
+Labels section:
+
+We can get the first level labels by clicking “Order Labels” and then “Box Labels”. We can also get the pallet labels by clicking “Pallet Labels”.
+
+![image](images/imagendeWord.png)
+
+Section: Send ASN
+
+To send an ASN, you must select the packages in the tree that you want to include. After selecting them, the “ASN” button is pressed. This generates a Shipment and TKE is notified.
+
+Any combination of first and second level boxes and pallets can be included in a shipment as long as they go to the same floor.
+
+Packages that are not selected are not included in the ASN and remain on this “Pending Shipment” screen.
+
+![image](images/imagendeWord.png)
+
+#### 2.2.6.2.3 Label Generation
+
+- Once the orders have been selected, the following buttons are enabled for label generation:
+Item and Box Labels: Generates individual labels for the items and boxes included in the shipment.
+
+- Pallet Labels: Generates labels to identify the pallets associated with the shipment.
+
+![Screenshot_2025-01-14_165638](images/labelEnvy.png)
+
+![Screenshot_2025-01-14_165638](images/labelOptionsEnvy.png)
+
+![Screenshot_2025-01-14_165638](images/lavelFromEnvy.png)
+
+#### 2.2.6.2.4 ASN Generation
+
+- Press the ASN button to create the shipping notification document.
+
+When you press it, all the boxes to be sent must be placed on pallets. If they are not this way, this error will appear:
+
+![Screenshot_2025-01-14_165638](images/addEnvyAlert.png)
+
+If the boxes have been inserted on pallets, when you press the "ASN" button, the confirmation message appears indicating that the process has been successful.
+
+![Screenshot_2025-01-14_165638](images/addEnvyCorrect.png)
+
+#### 2.2.6.2.5 Frequently asked questions
+
+<b>How can I remove a pallet or box from the order?</b>
 
 To delete a pallet or box, select the desired one and click on the delete button.
 

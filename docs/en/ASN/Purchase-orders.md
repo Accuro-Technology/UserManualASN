@@ -1,49 +1,28 @@
-# 2.2.4  Purchase orders
+# 2.2.4 Purchase Orders
 
 **2.2.4.1 Overview**
 
-In the Purchase Orders section, a list of the orders placed is displayed, providing the 
-order number, the address to which it is sent, the date of the request, the directory num
-ber, the status of the order, as well as an options button to edit and delete an order.
+The Purchase Orders section displays a list of the orders placed, providing the order number, the address to which it is sent, the date of the request, the directory number, the status of the order, as well as an options button to edit and delete an order.
 
 ![image](images/listPurchaseOrders.png)
 
 **2.2.4.2 Main features**
 
-#### 2.2.4.2.1 Search and filters 
+#### 2.2.4.2.1 Search and filters
 
-- Above the list there is a search engine that allows you to search for the text inserted in any of 
-the sections. 
+- Above the list there is a search engine that allows you to search for the text inserted in any of the sections.
 
 ![image](images/searchPurchaseOrders.png)
 
-- In the SeeAdvancedFilters section of the search engine, when you click on it, you will find a 
-more specific filter for each of the attributes that make up each order. 
+- In the SeeAdvancedFilters section of the search engine, when you click on it, you will find a more specific filter for each of the attributes that make up each order.
 
 ![image](images/filterPurchaseOrders.png)
 
-#### 2.2.4.2.2 Options
+#### 2.2.4.2.2 Items
 
-- The "Options" button on each order opens a drop-down menu that allows you to edit and 
-delete an order. 
+By clicking the “Items” button we will be able to see a table with all the positions of the order.
 
-![image](images/optionsPurchaseOrders.png)
-
-- Editing an order allows you to modify any attribute of the chosen order. 
-
-![image](images/editPurchaseOrder.png)
-
-#### 2.2.4.2.3 Export and create order 
-
-- Above the search engine there are some buttons that allow you to export orders as Excel and 
-create a new order if you wish. 
-
-![image](images/buttonsPurchasOrders.png)
-
-- When creating a new order, a menu appears with the possibility of filling in all the attributes 
-that make up the order. 
-
-![image](images/newPurchaseOrder.png)
+![image](images/imagendeWord.png)
 
 #### 2.2.4.2.4 Frequently Asked Questions 
 

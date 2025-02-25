@@ -2,160 +2,152 @@
 title: Boxes
 ---
 
-
-# 2.2.2 Boxes
+#  2.2.2.2 Boxes
 
 **2.2.2.1 Overview**
 
-The boxes section allows you to manage all boxes registered in the system. Users can 
-search, filter, edit, delete, export and create new boxes in an intuitive way. This module 
-is designed to ensure efficient management of boxes and their characteristics.
+The Boxes section allows you to manage all the boxes registered in the system. Users can search, filter, edit, delete, export and create new boxes in an intuitive way. This module is designed to ensure an efficient administration of the cashboxes and their characteristics.
 
-**2.2.2.2 Main features**
+**2.2.2.2.2 Main functionalities **
 
-#### 2.2.2.2.1 Seeker 
+#### 2.2.2.2.2.2.1 Search engine
 
-The search field allows you to quickly locate boxes by entering text related to their main 
-characteristics, such as name, type of box or any other relevant data.
+The search field allows to quickly locate boxes by entering text related to their main characteristics, such as name, type of box or any other relevant data.
 
-#### 2.2.2.2.2 Advanced Filters 
-The Advanced Filters drop-down menu allows you to perform more specific searches by 
-applying different criteria. 
- 
-Available criteria include: 
- 
-- Box code. 
-- Minimum height. 
-- Maximum height. 
-- Minimum width. 
-- Maximum width. 
-- Minimum length. 
-- Maximum length. 
-- Units of size. 
-- Minimum weight. 
-- Maximum weight. 
-- Units of weight. 
-- Orders. 
-- Object of order.
+#### 2.2.2.2.2.2.2 Advanced Filters
 
-Once the filters are set, users can press the Refresh button within the panel to have the checkout 
-list automatically updated, displaying only the results that meet the selected criteria.
+The Advanced Filters drop-down allows you to perform more specific searches by applying different criteria.
 
-![Captura_de_pantalla_2025-01-14_144650](images/filterBox.png)
+The available criteria include:
 
-#### 2.2.2.2.3 List of Boxes 
+- Box code.
+- Minimum height.
+- Maximum height.
+- Minimum width.
+- Maximum width.
+- Minimum length.
+- Maximum length.
+- Size units.
+- Minimum weight.
+- Maximum weight.
+- Weight units.
+- Orders.
+- Order object.
 
-- A table is displayed with all the boxes existing in the system. 
+Once the filters have been configured, users can press the Refresh button within the panel to have the list of boxes automatically refreshed, showing only the results that meet the selected criteria.
 
-- Each row in the listing represents a box and includes information such as: 
+Screenshot_2025-01-14_144650](images/filterBox.png)
 
-    - Box code. 
-    - Dimensions (height/width/length). 
-    - Units of size. 
-    - Weight (G/N). 
-    - Units of weight. 
+#### 2.2.2.2.2.2.3 List of Boxes
 
-![Captura_de_pantalla_2025-01-14_145112](images/listBox.png)
+- A table with all the existing boxes in the system is displayed.
 
-- Each box has two action buttons associated with it: 
+- Each row of the list represents a box and includes information such as:
+   
+    - Box code.
+    - Dimensions (height/width/length).
+    - Size units.
+    - Weight (G/N).
+    - Weight units.
 
-Edit: Open a form to modify the characteristics of the selected box. 
+Screenshot_of_2025-01-14_145112](images/listBox.png)
 
-![Captura_de_pantalla_2025-01-14_145152](images/editBox.png)
+- Each box has two associated action buttons:
 
-Delete: Allows you to delete the box after confirming the action.
+Edit: Open a form to modify the characteristics of the selected box.
 
-![Captura_de_pantalla_2025-01-14_145222](images/alertBox.png)
+![Screenshot_2025-01-14_145152](images/editBox.png)
 
-#### 2.2.2.2.4 Export to Excel
+Delete: Delete the box from the system after confirming the action.
 
-- By clicking the Export to Excel button, an Excel file will automatically be downloaded with the 
-information of the boxes shown in the list. 
+Screenshot_2025-01-14_145222](images/alertBox.png)
 
-- The downloaded file is saved in the browser's default download folder. 
+#### 2.2.2.2.2.4 Export to Excel.
 
-#### 2.2.2.2.5 Create New Box 
+- Clicking on the Export to Excel button will automatically download an Excel file with the information of the boxes shown in the listing.
 
-- This button allows you to register a new box in the system. 
+- The downloaded file is saved in the browser's default download folder.
 
-- When selected, a form is displayed in which users must enter the required information: 
+#### 2.2.2.2.2.5 Create New Box
 
-    - Box name: An identifying name that makes the box easily recognizable. Example: "Large Box #1", "Electronics Box". Helps organize and quickly locate the box in an inventory or management system. 
+- This button allows registering a new box in the system.
 
-    - Width: The horizontal measurement of the box when viewed from the front. Units may be specified in centimeters, inches, meters, or other units depending on configuration. For example: 30 cm, 12 inches. This is key to determining how much space the box will take up, especially in storage or transport. 
+- When selected, a form is displayed in which users must enter the required information:
 
-    - Height: The vertical measurement of the box from the base to the top. The units of measurement are similar to width, specified in cm, inches, etc. This data is necessary to calculate the total volume of the box and to verify its suitability in spaces with height restrictions. 
+    * name of the box: an identifying name that allows the box to be easily recognized. Example: "Large Box #1", "Electronic Box". Helps to quickly organize and locate the box in an inventory or management system. 
 
-    - Length: The horizontal measurement of the box from front to back. It is measured in the same units as the width and height. Example: 40 cm, 16 inches. Together with the width and height, it determines the volume and space needed for storage. 
+    * Width: The horizontal measurement of the box when viewed from the front. The units can be specified in centimeters, inches, meters or other units depending on the configuration. For example: 30 cm, 12 inches. Key to determining the space the box will occupy, especially in storage or transport. 
 
-    - Size units: Specifies the measurement system used for box dimensions. Example: Centimeters (cm), inches (in), meters (m). Unifies measurements and prevents errors when mixing different unit systems. 
+    * Height: The vertical measurement of the box from the base to the top. The units of measurement are similar to the width, specified in cm, inches, etc. This data is necessary to calculate the total volume of the box and to verify its adequacy in spaces with height restrictions. 
 
-    - Gross weight: The total weight of the box, including its contents, packaging, and any additional materials. Units: Kilograms (kg), pounds (lb), etc. Example: 12 kg, 26 lb. This is critical for calculating shipping costs and complying with maximum weight regulations. 
-    
-    - Net weight: The weight of the box's contents, not including packaging. Units: Same unit as gross weight (kg, lb, etc.). Example: 10 kg, 22 lb. Useful for determining the value of contents, especially in trade and inventories. 
+    * Length: The horizontal measurement of the box from front to back. It is measured in the same units as width and height. Example: 40 cm, 16 inches. Along with width and height, it determines the volume and space required for storage. 
 
-    - Weight units: A system of measurement for weight (kilograms, pounds, etc.). Example: kg, lb. Ensures consistency in measurements and prevents errors in interpretation, especially in international contexts. 
+    * Size units: Specifies the measurement system used for the dimensions of the box. Example: Centimeters (cm), inches (in), meters (m). It unifies measurements and avoids errors when mixing different unit systems. 
 
-- The form includes validations to ensure the integrity of the data before saving it. 
+    * Gross weight: The total weight of the box, including its contents, packaging and any additional material. Units: Kilograms (kg), pounds (lb), etc. Example: 12 kg, 26 lb. It is essential for calculating transportation costs and complying with maximum weight regulations. 
 
-    Together, these fields ensure that boxes can be properly identified, measured, weighed, and transported. They facilitate logistics, warehousing, inventory, and trade by providing all the key information about the physical characteristics of each box. 
+    * Net weight: The weight of the contents of the box excluding packaging. Units: Same unit as gross weight (kg, lb, etc.). Example: 10 kg, 22 lb. Useful for determining the value of the contents, especially in trade and inventory. 
 
-    <b>The box needs to be created here so that it is recorded in the system and can be made available later in the packaging section, ensuring that the correct specifications are used in subsequent processes.</b>
+    * Weight units: System of measurement for weight (kilograms, pounds, etc.). Example: kg, lb. Ensures consistency in measurements and avoids interpretation errors, especially in international contexts. 
 
-![Captura_de_pantalla_2025-01-14_145603](images/newBox.png)
+- The form includes validations to ensure data integrity before saving.
 
-#### 2.2.2.2.6 Frequently Asked Questions
+    These fields together ensure that boxes can be properly identified, measured, weighed and transported. They facilitate logistics, warehousing, inventory and trade by providing all key information about the physical characteristics of each box. 
 
-<b>What information is displayed on the box listing?</b>
+    <b>The box needs to be created here so that it is recorded in the system and can be available later in the packaging section, ensuring that the correct specifications are used in downstream processes.</b>
 
-The box listing shows key information for each registered box, including: 
+! [Screenshot_2025-01-14_145603](images/newBox.png)
 
-- Unique box code. 
-- Dimensions (width,length, height). 
-- Units of size. 
-- Weight. 
-- Units of weight. 
+#### 2.2.2.2.2.2.6 Frequently Asked Questions
 
-<b>How can I search for a specific box?</b>
+<b>What information is displayed in the box listing?</b>
 
-You can search for a specific box using the search field. Enter any of the following data: 
+The box listing shows key information for each registered box, including:
 
-- Box code. 
-- Order number. 
+- Unique box code.
+- Dimensions (width, length, height).
+- Size units.
+- Weight units.
+- Weight units.
+
+<b>How can I search for a specific box</b>
+
+You can search for a specific box using the search field. Enter any of the following data:
+
+- Box code.
+- Order number.
 - Dimensions or any other relevant characteristics.
 
 <b>How can I edit or delete a box?</b>
 
-Each box in the listing includes two buttons: 
+Each box in the listing includes two buttons:
 
-Edit: Allows you to modify the box's characteristics. Clicking on this opens an editable form. 
+Edit: Allows you to modify the characteristics of the box. When clicked, it opens an editable form.
 
-Delete: Deletes the system box. This action requires confirmation to prevent accidental deletions.
+Delete: Deletes the box from the system. This action requires confirmation to avoid accidental deletions.
 
 <b>How can I register a new box?</b>
 
 To create a new box:
 
-Click the Create New Box button. Fill in the form with the necessary data (dimensions, material, 
-condition, etc.). Save the changes to register the box in the system.
+Click on the Create New Box button.
+Complete the form with the required data (dimensions, material, condition, etc.).
+Save the changes to register the box in the system.
 
 <b>What happens if I try to save a box with incorrect data?</b>
 
-The creation and editing form includes validations that ensure the data is correct. If you enter 
-incorrect information or mandatory fields are missing, the system will display an error message 
-indicating the necessary adjustments before saving. 
+The create and edit form includes validations to ensure data integrity. If you enter incorrect information or missing required fields, the system will display an error message indicating the necessary adjustments before saving.
 
-<b>What should I do if I can't find a box that should be registered? </b>
+<b>What to do if I cannot find a box that should be registered?</b>
 
-If you can't find a box: 
+If you cannot find a box: 
 
-Check to see if any filters have been applied that may be hiding it. Try searching for it by its unique 
-ID, code, or other distinguishing feature. If the box still doesn't appear, confirm with your system 
-administrator whether it has been deleted or archived.
+Verify that no filters have been applied that may be hiding it. 
+Try searching for it by its unique identifier or code or other distinguishing characteristic. 
+If the box still does not appear, confirm with your system administrator whether it has been deleted or archived.
+l doesn't appear, confirm with your system administrator whether it has been deleted or archived.
 
 <b>How to create an Excel document? </b>
 
 Click on the Export to Excel button at the top right. An Excel file will automatically download with 
-the information of the boxes shown in the list. 
-
-
+the information of the boxes shown in the list.

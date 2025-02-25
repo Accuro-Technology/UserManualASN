@@ -1,136 +1,106 @@
-# 2.2.8 Shipping 
+# 2.2.8 Shipments
 
 **2.2.8.1 Overview**
 
-The Shipments section is designed to manage and monitor shipments within the system. 
-It includes two main views: Pending and Shipped, allowing clear and structured control 
-of the status of each shipment. 
+The Shipments section is designed to manage and monitor shipments within the system. It includes two main views: Pending and Shipped, allowing clear and structured control of the status of each shipment.
 
 **2.2.8.2 Main features**
 
 #### 2.2.8.2.1 Available Views
 
-- Pending: Displays a list of shipments that have not yet been processed or shipped. 
+- Pending: Displays a list of shipments that have not yet been processed or shipped.
 
-- Sent: Presents a list of the shipments that have already been managed and marked as sent. 
+- Shipped: Displays a list of shipments that have already been managed and marked as shipped.
 
 #### 2.2.8.2.2 Navigation between views
 
-Users can switch between the Pending and Sent tabs to view items in each status.
+Users can switch between the Pending and Shipped tabs to view the items corresponding to each status.
 
-#### 2.2.8.2.3 Earring 
+#### 2.2.8.2.3 Pending
 
-List of Pending Shipments: 
+List of Pending Shipments:
 
-- A list of shipments not yet processed is presented. 
+- A list of shipments not yet processed is displayed.
 
-Each row includes the following information: 
+Each row includes the following information:
 
-- ID: Unique identifier of the shipment. 
+- ID: Unique identifier for the shipment.
+- Shipment Number: Shipment reference code or number.
+- Action Buttons:
 
-- Shipment Number: Shipment code or reference number. 
+- Information: Provides additional details about the shipment. When clicked, a pop-up or modal box opens with relevant information.
+- Labels: Generates and allows you to download labels for the corresponding shipment.
+- Send: Changes the shipment status to "Sent" and automatically moves it to the Sent tab.
+- Delete: Allows you to delete this shipment. TKE will be notified that the ASN needs to be deleted. All packages included in this shipment will appear again in "Pending Shipment".
 
-- Action Buttons: Information: Provides additional details about the shipment. When clicked, a 
-pop-up or modal opens with relevant information. Labels: Generates and allows downloading 
-labels for the corresponding shipment. Send: Changes the status of the shipment to "Sent" 
-and automatically moves it to the Sent tab. Available Actions.
+![image](images/imagendeWord.png)
 
-![image](images/listEnvy.png)
+#### 2.2.8.2.4 Sent
 
-#### 2.2.8.2.4 Sent 
+Sent Shipments List:
 
-List of Sent Shipments: 
+Similar to the Pending tab list, but shows only shipments that have already been processed and sent.
 
-Similar to the listing on the Pending tab, but only shows shipments that have already 
-been processed and shipped. 
+Each row includes:
 
-Each row includes: 
+- ID: ASN identifier.
+- Shipment Number: Shipment code or reference number.
+- Shipment date.
+- Action buttons:
+- Information: Provides additional details about the shipment. When clicked, a pop-up or modal box opens with relevant information.
+- Labels: Generates and allows you to download labels (item, box, pallet, and packing slip) for the corresponding shipment.
+- Shipped: Shipment status information.
 
-- ID: ASN identifier. 
-
-- Shipment Number: Shipment code or reference number. 
-
-- Date of shipment. 
-
-- Action Buttons: Information: Provides additional details about the shipment. When clicked, a 
-pop-up or modal opens with relevant information. Labels: Generates and allows downloading 
-labels (item, box, pallet, and packing slip) for the corresponding shipment. Shipped: Informa
-tion about the status of the shipment.
-
-This view acts as a record of completed shipments, allowing you to review them at any 
-time.
+This view acts as a record of completed shipments, allowing you to consult them at any time.
 
 ![image](images/listEnvyEnvy.png)
 
-#### 2.2.8.2.5 Joint shipments 
+#### 2.2.8.2.6 Frequently asked questions
 
-When packing orders into boxes, you are allowed to select all shipments for grouping them 
-and then put them on a pallet (if they have the same destination).
+<b>What information is displayed in the Shipments section?</b>
 
-![image](images/ordersGroupEnvy.png)
+The Shipments section has two main tabs:
 
+Pending: Displays shipments that have not yet been processed, with the following information:
+Shipment ID.
+Shipment Number.
+Action Buttons: Info, Labels, and Send .
+Shipped: Displays shipments that have already been processed, with the same information fields.
 
-#### 2.2.8.2.6 Frequently Asked Questions
+<b>What actions can I perform from the "Pending" tab?</b>
 
-<b>What information is displayed in the Shipping section?</b>
+From the Pending tab, you can:
 
-The Shipping section contains two main tabs: 
+View detailed shipment information by selecting the Info button.
+Generate labels for items and boxes using the Labels button.
+Mark a shipment as complete and move it to the Shipped tab using the Send button.
 
-Pending: Displays shipments that have not yet been processed, including the following 
-details: 
-- Shipment ID.
+<b>How can I view a shipment that has already been processed?</b>
 
-- Shipment Number.
+To view already processed shipments:
 
-- Action buttons: Information, Labels, and Send. 
+Go to the Shipped tab.
+Find the shipment you need.
+Select the shipment to view its information or generate labels again.
 
-Sent: Displays shipments that have already been processed, with the same information 
-fields.
+<b>What does the "Information" button do?</b>
 
-<b>What actions can I perform from the "Pending" tab? </b>
+The Information button displays ASN details for the selected shipment.
 
-From the Pending tab, you can: 
+<b>What happens when I press the "Send" button in the Pending tab?</b>
 
-- View detailed shipment information by clicking the Information button. 
+When I press the Send button:
 
-- Generate labels for items and boxes using the Labels button. 
+The status of the shipment changes from "Pending" to "Sent."
+The shipment is automatically moved from the Pending tab to the Sent tab.
+This change ensures a clear record of completed shipments.
 
-- Mark a shipment as complete and move it to the Sent tab using the Send button. 
+<b>Can I generate labels for already completed shipments?</b>
 
-<b>How can I view a shipment that has already been processed? </b>
+Yes, from the Sent tab, you can generate labels again using the Labels button associated with each shipment.
 
-To check shipments that have already been processed: 
+<b>What is the difference between the "Pending" and "Sent" tabs?</b>
 
-- Go to the Sent tab.
+Pending: Contains shipments that have not yet been processed or completed. These can be managed with actions such as send and generate labels.
 
-- Locate the shipment you need. 
-
-- Select the shipment to view its details or generate labels again.
-
-<b>What does the "Information" button do? </b>
-
-The Information button displays ASN (Advanced Shipping Notice) details for the selected 
-shipment.
-
-<b>What happens when I press the "Send" button on the Pending tab?</b>
-
-Pressing the Send button will: 
-
-- Change the shipment status from Pending to Sent. 
-
-- Automatically move the shipment from the Pending tab to the Sent tab. 
-
-- Maintain a clear record of completed shipments.
-
-<b>Can I generate labels for already completed shipments? </b>
-
-Yes, you can generate labels again from the Sent tab using the Labels button associated 
-with each shipment. 
-
-<b>What is the difference between the "Pending" and "Sent" tabs? </b>
-
-Pending: Contains shipments that have not yet been processed or completed. These can 
-still be managed using the Send and Labels actions. 
-
-Sent: Contains shipments that have already been processed and marked as completed. 
-Here, you can only view shipment details or generate labels again. 
+Sent: Contains shipments that have already been processed and marked as completed. Here you can only check the details or generate labels again.
