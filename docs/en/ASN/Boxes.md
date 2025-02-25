@@ -4,8 +4,6 @@
 
 The Boxes section allows you to manage all the boxes registered in the system. Users can search, filter, edit, delete, export and create new boxes in an intuitive way. This module is designed to ensure an efficient administration of the cashboxes and their characteristics.
 
-**2.2.2.2.2 Main functionalities **
-
 ## Search engine
 
 The search field allows to quickly locate boxes by entering text related to their main characteristics, such as name, type of box or any other relevant data.

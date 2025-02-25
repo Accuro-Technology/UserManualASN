@@ -1,5 +1,7 @@
 # ASN
 
+## SUMMARY
+
 ASN (Advanced Shipping Notice) is an application that provides the ability to control the 
 shipment of boxes and pallets of orders between material suppliers and TKE, keep rec
 ords and ensure that they are carried out efficiently. 
@@ -8,4 +10,24 @@ By requesting a shipment in the JAG application, the order is placed, it then re
 ASN application for control. If everything is correct, it allows for connection with the SAP 
 application to complete the shipping process and for it to know that it has arrived properly.
 
-![image](../en/ASN/images/ASN_home.png)
+![image](ASN/images/ASN_home.png)
+
+## REFERENCES 
+
+[BOXES](ASN/Boxes.md) 
+
+[LOGIN](ASN/Login.md) 
+
+[PACKAGE](ASN/Package.md) 
+
+[PALLETS](ASN/Pallets.md) 
+
+[PARTIAL-SHIPMENTS](ASN/Partial-shipments.md) 
+
+[PENDING-SHIPMENT](ASN/Pending-shipment.md) 
+
+[PURCHASE-ORDERS](ASN/Purchase-orders.md)
+
+[SHIPPING](ASN/Shipping.md) 
+
+[TENANT](ASN/Tenant.md) 
