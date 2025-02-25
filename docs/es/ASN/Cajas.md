@@ -150,5 +150,3 @@ Si la caja sigue sin aparecer, confirme con el administrador del sistema si ha s
 <b>¿Cómo crear un documento Excel?</b>
 
 Haz clic en el botón superior derecho Exportar a Excel. Se descargará automáticamente un archivo Excel con la información de las cajas mostradas en el listado.
-
-

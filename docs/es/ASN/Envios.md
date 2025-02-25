@@ -31,8 +31,9 @@ Cada fila incluye la siguiente información:
         - Información: Proporciona detalles adicionales sobre el envío. Al pulsar, se abre un cuadro emergente o modal con información relevante.
         - Etiquetas: Genera y permite descargar etiquetas para el envío correspondiente.
         - Enviar: Cambia el estado del envío a "Enviado" y lo mueve automáticamente a la pestaña Enviados.
+        - Borrar: Permite eliminar este envío. Se notificará a TKE de que el ASN debe ser borrado. Todos los paquetes incluidos en este envío volverán a aparecer en “Pendiente de Envío”. 
 
-![image](images/listEnvy.png)
+![image](images/imagendeWord.png)
 
 #### 2.2.8.2.4 Enviados
 
@@ -53,13 +54,6 @@ Cada fila incluye:
 Esta vista actúa como un registro de envíos completados, permitiéndole su consulta en cualquier momento.
 
 ![image](images/listEnvyEnvy.png)
-
-#### 2.2.8.2.5 Envíos conjuntos 
-
-Al empaquetar las órdenes en cajas, se permite seleccionar todos los envíos para 	agruparlos y meterlos en un pallet, en el caso en el que tengan el mismo destino.
-
-![image](images/ordersGroupEnvy.png)
-
 
 #### 2.2.8.2.6 Preguntas frecuentes
 

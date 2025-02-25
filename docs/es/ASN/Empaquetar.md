@@ -2,11 +2,11 @@
 
 **2.2.5.1 Descripción general**
 
-En el apartado "Empaquetar" tenemos acceso a las órdenes que han sido previamente confirmadas en el sistema de Jaggaer, han sido recibidas por el sistema de ASN 2.0 y están listas para comenzar el proceso de empaquetado. 
+En el apartado "Empaquetar" tenemos acceso a las órdenes que han sido previamente confirmadas en el sistema de Jaggaer, han sido recibidas por el sistema de ASN 2.0 y están listas para comenzar el proceso de empaquetado.  
 
-En este apartado, sólo se pueden elegir órdenes individualmente. Si queremos juntar cajas de distintas órdenes, se podrá hacer más adelante en el aplicativo.  
+En este apartado, sólo se pueden elegir órdenes individualmente. Si queremos juntar cajas de distintas órdenes, se podrá hacer más adelante en el aplicativo.   
 
-En el apartado de Empaquetar se visualiza un listado los paquetes realizados proporcionando el número de pedido, la dirección a la que se envía, el número de cajas a enviar y un botón de opciones "Delivery Notes".
+En el apartado de Empaquetar se visualiza un listado los paquetes realizados proporcionando el número de pedido, la dirección y la planta a la que se envía, el número de cajas que han sido empaquetadas, los pallets y un botón de opciones "Delivery Notes". 
 
 ![image](images/listPacket.png)
 
@@ -20,19 +20,21 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 #### 2.2.5.2.2 Nota de envío
 
-- Al pulsar el botón "Delivery Notes" en cualquiera de los paquetes se visualiza la página de Nota de envío en la que se puede ver el paquete que está pendiente de empaquetar o ya empaquetado.
+- Al pulsar el botón "Delivery Notes" en cualquiera de los paquetes se visualiza la página de Nota de envío en la que se puede ver el paquete que está pendiente de empaquetar o ya empaquetado. 
 
-- La posición de la orden (en este caso el 10) 
+- La posición de la orden (en este caso el 10)  
 
-- El número del ítem (en este caso es 1910163303) 
+- La planta de la orden (en este caso 40SY) 
 
-- El nombre del ítem (Item for Cable de Acero 6,5/6mm (6x19) reference) 
+- El número del ítem (en este caso es 1910163349)  
 
-- El número de ítems a empaquetar (0/1600) 
+- El nombre del ítem (Item for BG140 safetygear contact reference)  
 
-- Fecha de envío.
+- El número de ítems a empaquetar (0/140)  
 
-![image](images/envyNotes.png)
+- Fecha de envío. 
+
+![image](images/imagendeWord.png)
 
 #### 2.2.5.2.3 Pendiente
 
@@ -112,9 +114,46 @@ Mediante el botón "Etiquetas" se puede sacar un pdf de los items y las cajas ex
 
 #### 2.2.5.2.9 Empaquetado a un solo nivel 
 
-Se podrá agrupar todo con el máximo del pedido o colocarlo en cajas aparecerá la cantidad máxima. 
+- Sobre una misma posición se puede empaquetar de diferentes maneras:  
 
-![image](images/oneLevelPacket.png)
+![image](images/imagendeWord.png)
+
+- Cuando aplicas al checkbox utilizando los botones de caja o pallet de la derecha podríamos empaquetar la posición completa. 
+
+- Si se quieren empaquetar más de una posición al mismo tiempo podremos marcar con el checkbox tantas posiciones como deseemos.  
+
+#### 2.2.5.2.9.1  Emapaquetado a dos niveles
+
+![image](images/imagendeWord.png)
+
+- Los paquetes que se crean aparecerán en un árbol en la parte derecha de la pantalla. Con estos paquetes si clicamos el lapicer nos aparecerá un formulario para editarlos.  
+
+![image](images/imagendeWord.png)
+
+![image](images/imagendeWord.png)
+
+- Al seleccionar varios paquetes podremos pulsar el botón caja/pallet e introducir los paquetes seleccionados dentro de un segundo paquete. Por regla general esto se realizará pulsando el botón pallet para paletizar cajas.  
+
+![image](images/imagendeWord.png)
+
+- En cualquier momento podremos seleccionar tantos pallets y cajas como queramos y eliminarlos pulsando el botón con la papelera. Si eliminamos un paquete con items dentro, estos quedan desempaquetados.
+
+- Si lo que borramos es un paquete con paquetes dentro, los paquetes hijos no serán eliminados.
+
+![image](images/imagendeWord.png)
+
+- En esta pantalla podremos sacar las etiquetas de primer nivel, pulsando en “Etiquetas” y después en “Etiquetas de Caja”. 
+Con este botón sacaremos las etiquetas de Cajas y Pallets que contengan items. 
+
+![image](images/imagendeWord.png)
+
+- Encima de la lista de posiciones vemos las pestañas pendiente y empaquetado. En “Pendiente” aparecen aquellas posiciones que aún no han sido totalmente empaquetadas. En “Empaquetado” aquellos que sí han sido empaquetadas en su totalidad. 
+
+![image](images/imagendeWord.png)
+
+- Para pasar lo que s eha empaquetado a la pestaña “Pendiente de Envío”, se debe pulsar el botón “Confirmar”.  
+
+- Esto moverá el empaquetamiento que hayamos realizado al siguiente apartado. No será posible retroceder de vuelta a la ventana de “Empaquetamiento” aquellas cajas y pallets que se confirmen. 
 
 #### 2.2.5.2.10 Empaquetado con número de lote 
 
@@ -140,19 +179,52 @@ Desde el listado de empaquetados se puede ir agregando en pallets. Se puede saca
 
 #### 2.2.5.2.12 Empaquetado con número de serie 
 
-Se coloca el número de serie correspondiente a cada uno de los ítems. Se empaqueta en cajas 	cada ítem y se agrupa en un pallet que sacando el ASN pasa a “Pendientes de Envío”. 
+Cuando en la orden haya posiciones que requeiran número de serie, aparecerá un botón encima de la lista de posiciones que permite introducir grandes cantidades de números de serie en poco tiempo. 
 
-![image](images/serialNumberPacket.png)
+![image](images/imagendeWord.png)
 
-En el caso de no colocar un número de serie con el formato correcto saldrá un mensaje: 
+Cuando se pulsa el botón, se abre una ventana que nos permite elegir para qué tipo de item queremos introducir números de serie. 
 
-![image](images/serialNumberPacketAlert.png)
+![image](images/imagendeWord.png)
 
-En caso correcto aparecerá de esta manera y permitirá empaquetarlo: 
+Al elegir un item, aparecerá un campo de texto donde introducir los números de serie. 
 
-![image](images/serialNumberPacketCorrect.png)
+Pueden ir separados por salto de línes o por punto y coma (“;”). 
+Será necesario introducir la totalidad de números de serie que se requieren, encima del campo de texto podemos ver cuántos números de serie llevamos introducidos y cuál es el total necesario. 
 
-#### 2.2.5.2.13 Preguntas frecuentes
+![image](images/imagendeWord.png)
+
+Tras pulsar “Guardar” si ha habido algún problema el aplicativo nos avisará. Si todo ha ido bien, los números de serie del tipo de ítem elegido habrán sido guardados. 
+
+#### 2.2.5.2.13 Formulario de caja/pallet
+
+![image](images/imagendeWord.png)
+
+- Una vez pulsemos el botón de caja o pallet se desplegará este recuadro en el que podremos decidir si queremos introducir los ítems en una caja previamente creada en esta orden o si preferimos crear una nueva caja pulsando el botón “+ Nueva caja/pallet” 
+
+![image](images/imagendeWord.png)
+
+- Si pulsamos nueva caja/pallet nos aparecerá este formulario de creación de caja o pallet (según el botón pulsado). En este formulario al elegir un tipo de caja/pallet estaremos seleccionando uno de los tipos genéricos previamente creados. Los campos se autocompletarán con la información de la caja/pallet previamente creado, aun asi cualquier campo es modificable. 
+
+- Arriba en el formulario aparecen dos checkbox para poder seleccionar si queremos crear un solo bulto para todas las posiciones seleccionadas o si crearemos un bulto para cada posición.  
+
+![image](images/imagendeWord.png)
+
+- Si deseamos crear distintos paquetes para una misma posición podemos usar la opción “Agrupar”. Se crearán paquetes en función el numero que indiquemos una vez pulsemos el botón “Agrupar” 
+
+![image](images/imagendeWord.png)
+
+- Los subpaquetes que han sido creados tras pulsar la opción “Agrupar” se pueden empaquetar usando los botones caja o pallet que aparecen al desplegar la posición. 
+
+![image](images/imagendeWord.png)
+
+- Una vez un item está empaquetado podremos o bien desempaquetarlo pulsando el botón de la caja o eliminarlo pulsando el botón de la papelera.  
+
+![image](images/imagendeWord.png)
+
+- Si pulsamos los botones de caja o pallet que están dentro de la posición sin seleccionar ningún subpaquete generado tras agrupar podremos indicar la cantidad que deseamos para el nuevo paquete que vamos a crear.  
+
+#### 2.2.5.2.14 Preguntas frecuentes
 
 <b>¿Cómo buscar una orden?</b>
 En la parte superior de la página existe un buscador que permite hacer una búsuqeda por cualquiera de sus atributos principales.

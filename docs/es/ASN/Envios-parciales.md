@@ -2,40 +2,11 @@
 
 **2.2.7.1 Descripción general**
 
-El apartado Envíos Parciales permite gestionar y consultar los pedidos que se encuentran en proceso de envío parcial. Es decir, aquellos pedidos de compra de los cuales se han empaquetado previamente algunos ítems, pero no todos. 
-
-Proporciona herramientas para órdenes de pedidos y visualizar sus detalles, así como gestionar los embalajes asociados. 
-
-![image](images/listPartialEnvy.png)
+La ventana de Envíos Parciales es idéntica a la de Empaquetar, con la diferencia de que aquí podremos acceder a continuar con la nota de entrega de aquellos pedidos de compra en los cuales hemos confirmado previamente en el apartado “Empaquetar” sólo algunas de las posiciones. 
 
 **2.2.7.2 Funcionalidades principales**
 
-#### 2.2.7.2.1 Buscador de pedidos por número de orden y dirección del pedido. 
-
-Presionar el botón Actualizar para filtrar el listado de pedidos por los datos introducidos o presionar el botón Limpiar para vaciar los campos rellenes del buscador.
-
-![image](images/searchPartialEnvy.png)
-
-#### 2.2.7.2.2 Listado de Órdenes de Pedidos
-
-- Muestra todas las órdenes de pedidos en estado de envío parcial.
-
-- Cada fila incluye información clave como:
-
-   - Número de Orden: Identificador único del pedido.
-   - Dirección de envío: Destino asociado a la orden.
-   - Cajas: número de cajas contenidas en el pedido.
-   - Opciones: cada orden de pedido en el listado incluye un botón Nota de Entrega. Al presionar este botón, el usuario es redirigido a una nueva pestaña para gestionar los embalajes asociados a la orden seleccionada.
-   
-#### 2.2.7.2.3 Importar
-
-Presionando el botón Importar se abre una pestaña desde la que se puede, o bien arrastrar archivos Excel para poder añadir al listado, o bien, añadir desde el propio navegador de archivos del ordenador.
-
 #### 2.2.7.2.4 Pestaña Nota de Entrega
-
-- Embalaje actual
-
-![image](images/orderPartialEnvy.png)
 
 - Buscador de embalajes
 
