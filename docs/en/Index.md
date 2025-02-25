@@ -20,7 +20,7 @@ application to complete the shipping process and for it to know that it has arri
 
 [PACKAGE](ASN/Package.md) 
 
-[PALLETS](./ASN/Pallets.md) 
+[PALLETS](./ASN/pallets.md) 
 
 [PARTIAL-SHIPMENTS](ASN/Partial-shipments.md) 
 
