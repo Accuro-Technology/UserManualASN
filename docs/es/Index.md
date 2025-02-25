@@ -16,7 +16,7 @@ Mediante la petición de un envío en la aplicación JAG se realiza el pedido, e
 
 [EMPAQUETAR](ASN/Empaquetar.md) 
 
-[PALLETS](ASN/Pallets.md) 
+[PALLETS](./ASN/Pallets.md) 
 
 [ENVIOS PARCIALES](ASN/Envios-parciales.md) 
 

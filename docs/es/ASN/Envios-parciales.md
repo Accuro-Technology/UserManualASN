@@ -1,4 +1,4 @@
-# 2.2.7 Envíos parciales
+# Envíos parciales
 
 **Descripción general**
 
