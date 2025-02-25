@@ -1,6 +1,3 @@
----
-title: Home English
----
 # ASN
 
 ASN(Advanced Shipping Notice) es una aplicación que proporciona la posibilidad de controlar los envíos de cajas y pallets de pedidos entre proveedores de materiales y TKE, llevar el registro y conseguir que se realicen de manera eficiente.

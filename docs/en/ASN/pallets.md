@@ -1,11 +1,6 @@
----
-title: Pallets
----
+# Pallets
 
-
-# 2.2.3 Pallets
-
-**2.2.3.1 General Description**
+**General Description**
 
 The "Pallets" window allows users to view, manage and organize the pallets registered 
 in the system. This section is designed with advanced features for searching for specific 
@@ -14,9 +9,9 @@ data in Excel format is provided.
 
 ![Captura_de_pantalla_2025-01-14_135509](images/listPallets.png)
 
-**2.2.3.2 Main features**
+**Main features**
 
-#### 2.2.3.2.1 List of pallets
+## List of pallets
 
 - A list is displayed with all the pallets registered in the system. 
 
@@ -42,7 +37,7 @@ tion to prevent accidental deletions.
 
 ![Captura_de_pantalla_2025-01-14_140746](images/alertPallets.png)
 
-#### 2.2.3.2.2 Advanced Filters 
+## Advanced Filters 
 Users can deploy the Advanced Filters panel to perform specific searches. This function
 ality allows users to perform detailed searches by applying multiple selection criteria. 
 This tool is designed to facilitate the location of specific pallets based on their character
@@ -64,7 +59,7 @@ Search criteria include:
    - Orders. 
    - Box. 
 
-#### 2.2.3.2.3 Procedure for use 
+## Procedure for use 
 
 - Expand the Advanced Filters panel. 
 
@@ -76,7 +71,7 @@ match the applied filters are displayed, making analysis and management easier.
 
 ![Captura_de_pantalla_2025-01-14_141601](images/filterPallets.png)
 
-#### 2.2.3.2.4 Create a new pallet 
+## Create a new pallet 
 
 - Option to add a new pallet to the system. 
 
@@ -124,7 +119,7 @@ specifications are used in subsequent processes.</b>
 
 ![Captura_de_pantalla_2025-01-14_142537](images/newPallets.png)
 
-#### 2.2.3.2.5 Export to Excel. 
+## Export to Excel. 
 
 - The Export to Excel option allows you to download an Excel file with the information on the 
 list of pallets currently visible in the table. This feature is ideal for generating reports or per
@@ -134,7 +129,7 @@ forming external data analysis.
 rows and columns currently visible in the palette listing. 
 
 
-#### 2.2.3.2.6 Frequently Asked Questions
+## Frequently Asked Questions
 
 <b>What information is displayed in the pallet listing?</b>
 
@@ -193,6 +188,3 @@ Click the Options button associated with that pallet. Two options will be displa
 Delete. Press the Edit option if you want to modify changes to the selected pallet, make the 
 necessary changes in the form and save the updated data. Or, press Delete if you want to 
 delete the entire selected pallet.
-
-
-

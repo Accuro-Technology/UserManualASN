@@ -1,6 +1,3 @@
----
-title: Home English
----
 # ASN
 
 ASN (Advanced Shipping Notice) is an application that provides the ability to control the 

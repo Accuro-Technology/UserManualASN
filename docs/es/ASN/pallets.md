@@ -1,19 +1,14 @@
----
-title: Pallets
----
+# Pallets
 
-
-# 2.2.3 Pallets
-
-**2.2.3.1 Descripción General**
+**Descripción General**
 
 La ventana "Pallets" permite a los usuarios visualizar, gestionar y organizar los pallets registrados en el sistema. Este apartado está diseñado con funcionalidades avanzadas para la búsqueda de pallets concretos, edición, eliminación y creación de nuevos pallets. Adicionalmente, se proporciona la opción de exportar los datos en formato Excel.
 
 ![Captura_de_pantalla_2025-01-14_135509](images/listPallets.png)
 
-**2.2.3.2 Funcionalidades principales**
+**Funcionalidades principales**
 
-#### 2.2.3.2.1 Listado de pallets
+## Listado de pallets
 
 - Se muestra un listado con todos los pallets registrados en el sistema.
 - Cada pallet incluye información relevante sobre sus características, tales como:
@@ -35,7 +30,7 @@ La ventana "Pallets" permite a los usuarios visualizar, gestionar y organizar lo
 
 ![Captura_de_pantalla_2025-01-14_140746](images/alertPallets.png)
 
-#### 2.2.3.2.2 Filtros Avanzados
+## Filtros Avanzados
 
 Los usuarios pueden desplegar el panel de Filtros Avanzados para realizar búsquedas específicas. Esta funcionalidad permite a los usuarios realizar búsquedas detalladas aplicando múltiples criterios de selección. Esta herramienta está diseñada para facilitar la localización de pallets específicos en función de sus características.
 
@@ -55,7 +50,7 @@ Los criterios de búsqueda incluyen:
    - Órdenes.
    - Caja.
 
-#### 2.2.3.2.3 Procedimiento de uso:
+## Procedimiento de uso:
 
 - Desplegar el panel de Filtros Avanzados.
 
@@ -66,7 +61,7 @@ Solo se muestran los pallets que coinciden con los filtros aplicados, facilitand
 
 ![Captura_de_pantalla_2025-01-14_141601](images/filterPallets.png)
 
-#### 2.2.3.2.4 Crear un nuevo pallet
+## Crear un nuevo pallet
 
 - Opción para agregar un nuevo pallet al sistema.
 
@@ -94,14 +89,14 @@ El formulario incluye validaciones para garantizar la integridad de los datos an
 
 ![Captura_de_pantalla_2025-01-14_142537](images/newPallets.png)
 
-#### 2.2.3.2.5 Exportar a Excel.
+## Exportar a Excel.
 
 - La opción de Exportar a Excel permite descargar un archivo en formato Excel con la información del listado de pallets actualmente visibles en la tabla. Esta funcionalidad es ideal para generar informes o realizar análisis externos de los datos. 
 
 - Al hacer clic en el botón Exportar a Excel, el sistema genera un archivo Excel que contiene las filas y columnas actualmente visibles en el listado de paletas.
 
 
-#### 2.2.3.2.6 Preguntas frecuentes
+## Preguntas frecuentes
 
 <b>¿Qué información se muestra en el listado de paletas?</b>
 
@@ -156,6 +151,3 @@ Para corregir los datos de un pallet:
 Localice el pallet en el listado.
 
 Haga clic en el botón Opciones asociado a ese pallet. Se desplegarán dos opciones: Editar y Borrar. Presione la opción Editar en el caso de querer modificar cambios del pallet seleccionado, realice los cambios necesarios en el formulario y guarde los datos actualizados. O bien, presione Borrar si quiere eliminar el pallet seleccionado completo.
-
-
-

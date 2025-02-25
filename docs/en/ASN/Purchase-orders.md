@@ -1,14 +1,14 @@
-# 2.2.4 Purchase Orders
+# Purchase Orders
 
-**2.2.4.1 Overview**
+**Overview**
 
 The Purchase Orders section displays a list of the orders placed, providing the order number, the address to which it is sent, the date of the request, the directory number, the status of the order, as well as an options button to edit and delete an order.
 
 ![image](images/listPurchaseOrders.png)
 
-**2.2.4.2 Main features**
+**Main features**
 
-#### 2.2.4.2.1 Search and filters
+## Search and filters
 
 - Above the list there is a search engine that allows you to search for the text inserted in any of the sections.
 
@@ -18,13 +18,13 @@ The Purchase Orders section displays a list of the orders placed, providing the 
 
 ![image](images/filterPurchaseOrders.png)
 
-#### 2.2.4.2.2 Items
+## Items
 
 By clicking the “Items” button we will be able to see a table with all the positions of the order.
 
 ![image](images/imagendeWord.png)
 
-#### 2.2.4.2.4 Frequently Asked Questions 
+## Frequently Asked Questions 
 
 <b>How to filter or search for a specific order? </b>
 There is a search and filtering of the different orders by each attribute that compose it at the top 

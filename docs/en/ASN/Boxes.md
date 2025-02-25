@@ -1,20 +1,16 @@
----
-title: Boxes
----
+# Boxes
 
-#  2.2.2.2 Boxes
-
-**2.2.2.1 Overview**
+**Overview**
 
 The Boxes section allows you to manage all the boxes registered in the system. Users can search, filter, edit, delete, export and create new boxes in an intuitive way. This module is designed to ensure an efficient administration of the cashboxes and their characteristics.
 
 **2.2.2.2.2 Main functionalities **
 
-#### 2.2.2.2.2.2.1 Search engine
+## Search engine
 
 The search field allows to quickly locate boxes by entering text related to their main characteristics, such as name, type of box or any other relevant data.
 
-#### 2.2.2.2.2.2.2 Advanced Filters
+## Advanced Filters
 
 The Advanced Filters drop-down allows you to perform more specific searches by applying different criteria.
 
@@ -38,7 +34,7 @@ Once the filters have been configured, users can press the Refresh button within
 
 Screenshot_2025-01-14_144650](images/filterBox.png)
 
-#### 2.2.2.2.2.2.3 List of Boxes
+## List of Boxes
 
 - A table with all the existing boxes in the system is displayed.
 
@@ -62,13 +58,13 @@ Delete: Delete the box from the system after confirming the action.
 
 Screenshot_2025-01-14_145222](images/alertBox.png)
 
-#### 2.2.2.2.2.4 Export to Excel.
+## Export to Excel.
 
 - Clicking on the Export to Excel button will automatically download an Excel file with the information of the boxes shown in the listing.
 
 - The downloaded file is saved in the browser's default download folder.
 
-#### 2.2.2.2.2.5 Create New Box
+## Create New Box
 
 - This button allows registering a new box in the system.
 
@@ -98,7 +94,7 @@ Screenshot_2025-01-14_145222](images/alertBox.png)
 
 ! [Screenshot_2025-01-14_145603](images/newBox.png)
 
-#### 2.2.2.2.2.2.6 Frequently Asked Questions
+## Frequently Asked Questions
 
 <b>What information is displayed in the box listing?</b>
 

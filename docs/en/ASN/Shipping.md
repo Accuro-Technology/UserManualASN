@@ -1,22 +1,22 @@
-# 2.2.8 Shipments
+# Shipments
 
-**2.2.8.1 Overview**
+**Overview**
 
 The Shipments section is designed to manage and monitor shipments within the system. It includes two main views: Pending and Shipped, allowing clear and structured control of the status of each shipment.
 
-**2.2.8.2 Main features**
+**Main features**
 
-#### 2.2.8.2.1 Available Views
+## Available Views
 
 - Pending: Displays a list of shipments that have not yet been processed or shipped.
 
 - Shipped: Displays a list of shipments that have already been managed and marked as shipped.
 
-#### 2.2.8.2.2 Navigation between views
+## Navigation between views
 
 Users can switch between the Pending and Shipped tabs to view the items corresponding to each status.
 
-#### 2.2.8.2.3 Pending
+## Pending
 
 List of Pending Shipments:
 
@@ -35,7 +35,7 @@ Each row includes the following information:
 
 ![image](images/imagendeWord.png)
 
-#### 2.2.8.2.4 Sent
+## Sent
 
 Sent Shipments List:
 
@@ -55,7 +55,7 @@ This view acts as a record of completed shipments, allowing you to consult them 
 
 ![image](images/listEnvyEnvy.png)
 
-#### 2.2.8.2.6 Frequently asked questions
+## Frequently asked questions
 
 <b>What information is displayed in the Shipments section?</b>
 

@@ -1,12 +1,12 @@
-# 2.2.6 Pendientes de envío
+# Pendientes de envío
 
-**2.2.6.1 Descripción general**
+**Descripción general**
 
 El apartado Pendientes de Envío está diseñado para gestionar los envíos que aún no han sido completados. Desde este módulo, los usuarios pueden consultar los pedidos pendientes, asignar pallets a dichos pedidos y generar etiquetas y documentos necesarios para el proceso logístico. Este apartado permite juntar cajas de distintos pedidos de compra en un mismo pallet, si así se necesita porque así se han empaquetado dichos pedidos. 
 
-**2.2.6.2 Funcionalidades principales**
+**Funcionalidades principales**
 
-#### 2.2.6.2.1 Listado de Envíos Pendientes
+## Listado de Envíos Pendientes
 
 - Se presenta un listado que incluye información clave de cada envío pendiente:
 
@@ -22,7 +22,7 @@ El apartado Pendientes de Envío está diseñado para gestionar los envíos que 
 
 ![images](images/listPendantEnvy.png)
 
-#### 2.2.6.2.2 Gestión de pallets y cajas
+## Gestión de pallets y cajas
 
 Seccion: Juntar cajas de diferentes pedidos de compra en un pallet 
 
@@ -75,7 +75,7 @@ Los paquetes que no se seleccionen no se incluyen en el ASN y permanecen en esta
 
 
 
-#### 2.2.6.2.3 Generación de etiquetas
+## Generación de etiquetas
 
 - Una vez seleccionadas las ordenes, se habilitan los siguientes botones para la generación de etiquetas:
 Etiquetas de Artículos y Cajas: Genera etiquetas individuales para los artículos y las cajas incluidas en el envío.
@@ -88,7 +88,7 @@ Etiquetas de Artículos y Cajas: Genera etiquetas individuales para los artícul
 
 ![Captura_de_pantalla_2025-01-14_165638](images/lavelFromEnvy.png)
 
-#### 2.2.6.2.4 Generación de ASN
+## Generación de ASN
 
 - Presione el botón ASN para crear el documento de notificación de envío.
 
@@ -100,7 +100,7 @@ Etiquetas de Artículos y Cajas: Genera etiquetas individuales para los artícul
 
 ![Captura_de_pantalla_2025-01-14_165638](images/addEnvyCorrect.png)
 
-#### 2.2.6.2.5 Preguntas frecuentes
+## Preguntas frecuentes
 
 <b>¿Cómo puedo eliminar un pallet o caja de la orden?</b>
 Para eliminar un pallet o caja se debe seleccionar el que se desea y clicar en el botón borrar.

@@ -1,12 +1,12 @@
-# 2.2.6 Pending Shipment
+# Pending Shipment
 
-**2.2.6.1 Overview**
+**Overview**
 
 The Pending Shipment section is designed to manage shipments that have not yet been completed. From this module, users can view pending orders, assign pallets to those orders, and generate labels and documents necessary for the logistics process. This section allows you to group boxes from different purchase orders on the same pallet, if necessary because that is how those orders have been packaged.
 
-**2.2.6.2 Main features**
+**Main features**
 
-#### 2.2.6.2.1 Pending Shipment List
+## Pending Shipment List
 
 - A list is presented that includes key information about each pending shipment:
 
@@ -22,7 +22,7 @@ If there are two or more orders with the same destination, they can be sent toge
 
 ![images](images/listPendantEnvy.png)
 
-#### 2.2.6.2.2 Pallet and box management
+## Pallet and box management
 
 Section: Joining boxes from different purchase orders on a pallet
 
@@ -74,7 +74,7 @@ Packages that are not selected are not included in the ASN and remain on this â€
 
 ![image](images/imagendeWord.png)
 
-#### 2.2.6.2.3 Label Generation
+## Label Generation
 
 - Once the orders have been selected, the following buttons are enabled for label generation:
 Item and Box Labels: Generates individual labels for the items and boxes included in the shipment.
@@ -87,7 +87,7 @@ Item and Box Labels: Generates individual labels for the items and boxes include
 
 ![Screenshot_2025-01-14_165638](images/lavelFromEnvy.png)
 
-#### 2.2.6.2.4 ASN Generation
+## ASN Generation
 
 - Press the ASN button to create the shipping notification document.
 
@@ -99,7 +99,7 @@ If the boxes have been inserted on pallets, when you press the "ASN" button, the
 
 ![Screenshot_2025-01-14_165638](images/addEnvyCorrect.png)
 
-#### 2.2.6.2.5 Frequently asked questions
+## Frequently asked questions
 
 <b>How can I remove a pallet or box from the order?</b>
 

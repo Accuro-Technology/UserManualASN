@@ -1,12 +1,12 @@
 # 2.2.7 Envíos parciales
 
-**2.2.7.1 Descripción general**
+**Descripción general**
 
 La ventana de Envíos Parciales es idéntica a la de Empaquetar, con la diferencia de que aquí podremos acceder a continuar con la nota de entrega de aquellos pedidos de compra en los cuales hemos confirmado previamente en el apartado “Empaquetar” sólo algunas de las posiciones. 
 
-**2.2.7.2 Funcionalidades principales**
+**Funcionalidades principales**
 
-#### 2.2.7.2.4 Pestaña Nota de Entrega
+## Pestaña Nota de Entrega
 
 - Buscador de embalajes
 
@@ -31,14 +31,14 @@ El funcionamiento del apartado "Delivery Note" consiste en el mismo esquema de e
 
 ![image](images/orderPendantPartialEnvy.png)
 
-#### 2.2.7.2.5 Embalaje previo 
+## Embalaje previo 
 
 En la sección de embalaje previo se muestra lo que ya se ha empaquetado de ese pedido, y la cantidad que muestra en embalaje actual es la cantidad pendiente, es decir, que para una posición del pedido la cantidad total sería la de embalaje actual + embalaje previo, pero el sistema las separa. 
 
 ![image](images/orderPreviousPendantEnvy.png)
 
 
-#### 2.2.7.2.6 Preguntas frecuentes
+## Preguntas frecuentes
 
 <b>¿Qué información muestra el listado de órdenes de pedidos?</b>
  

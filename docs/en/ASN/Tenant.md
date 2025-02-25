@@ -1,4 +1,4 @@
-# 2.2.1 Tenant
+# Tenant
 
 The tenant field allows the selection of the particular company that we want to access. It 
 is important to note that each client/supplier has its own tenant, which is the name of the 

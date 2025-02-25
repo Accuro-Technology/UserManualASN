@@ -1,21 +1,16 @@
----
-title: Cajas
----
+# Cajas
 
-
-# 2.2.2 Cajas
-
-**2.2.2.1 Descripción general**
+**Descripción general**
 
 El apartado Cajas permite gestionar todas las cajas registradas en el sistema. Los usuarios pueden buscar, filtrar, editar, eliminar, exportar y crear nuevas cajas de manera intuitiva. Este módulo está diseñado para garantizar una administración eficiente de las cajas y sus características.
 
-**2.2.2.2 Funcionalidades principales.**
+**Funcionalidades principales.**
 
-#### 2.2.2.2.1 Buscador
+## Buscador
 
 El campo de búsqueda permite localizar cajas rápidamente introduciendo texto relacionado con sus características principales, como el nombre, tipo de caja o cualquier otro dato relevante.
 
-#### 2.2.2.2.2 Filtros Avanzados
+## Filtros Avanzados
 
 El desplegable de Filtros Avanzados permite realizar búsquedas más específicas aplicando diferentes criterios.
 
@@ -39,7 +34,7 @@ Una vez configurados los filtros, los usuarios pueden presionar el botón Actual
 
 ![Captura_de_pantalla_2025-01-14_144650](images/filterBox.png)
 
-#### 2.2.2.2.3 Listado de Cajas
+## Listado de Cajas
 
 - Se muestra una tabla con todas las cajas existentes en el sistema.
 
@@ -63,13 +58,13 @@ Borrar: Permite borrar la caja del sistema tras confirmar la acción.
 
 ![Captura_de_pantalla_2025-01-14_145222](images/alertBox.png)
 
-#### 2.2.2.2.4 Exportar a Excel.
+## Exportar a Excel.
 
 - Al hacer clic en el botón Exportar a Excel, se descargará automáticamente un archivo Excel con la información de las cajas mostradas en el listado.
 
 - El archivo descargado se guarda en la carpeta de descargas predeterminada del navegador.
 
-#### 2.2.2.2.5 Crear Nueva Caja
+## Crear Nueva Caja
 
 - Este botón permite registrar una nueva caja en el sistema.
 
@@ -99,7 +94,7 @@ Borrar: Permite borrar la caja del sistema tras confirmar la acción.
 
 ![Captura_de_pantalla_2025-01-14_145603](images/newBox.png)
 
-#### 2.2.2.2.6 Preguntas frecuentes
+## Preguntas frecuentes
 
 <b>¿Qué información se muestra en el listado de cajas?</b>
 

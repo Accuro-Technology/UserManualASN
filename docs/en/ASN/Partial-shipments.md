@@ -1,12 +1,12 @@
-# 2.2.7 Partial Shipments
+# Partial Shipments
 
-**2.2.7.1 General description**
+**General description**
 
 The Partial Shipments window is identical to the Packing window, except that here we can access to continue with the delivery note for those purchase orders in which we have previously confirmed only some of the items in the “Packing” section.
 
-**2.2.7.2 Main features**
+**Main features**
 
-#### 2.2.7.2.4 Delivery Note tab
+## Delivery Note tab
 
 - Package search
 
@@ -31,13 +31,13 @@ The "Delivery Note" section works in the same packaging scheme as in the "Packin
 
 ![image](images/orderPendantPartialEnvy.png)
 
-#### 2.2.7.2.5 Pre-packing
+## Pre-packing
 
 The pre-packing section shows what has already been packed for that order, and the quantity shown in current packaging is the pending quantity, that is, for an order item the total quantity would be the current packaging + pre-packing, but the system separates them.
 
 ![image](images/orderPreviousPendantEnvy.png)
 
-#### 2.2.7.2.6 Frequently asked questions
+## Frequently asked questions
 
 <b>What information does the order order list show?</b>
 

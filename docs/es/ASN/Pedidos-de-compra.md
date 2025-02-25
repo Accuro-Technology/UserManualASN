@@ -1,14 +1,14 @@
-# 2.2.4 Pedidos de compra
+# Pedidos de compra
 
-**2.2.4.1 Descripción general**
+**Descripción general**
 
 En el apartado de Pedidos de compra se visualiza un listado de los pedidos realizados proporcionando el número de pedido, la dirección a la que se envía, la fecha de la solicitud, el número de directorio, el estado del pedido, además de un botón de opciones para editar y eliminar un pedido.
 
 ![image](images/listPurchaseOrders.png)
 
-**2.2.4.2 Funcionalidades principales**
+**Funcionalidades principales**
 
-#### 2.2.4.2.1 Buscador y filtros
+## Buscador y filtros
 
 - Encima del listado se encuentra un buscador que permite buscar el texto insertado en cualquiera de los apartados.
 
@@ -18,7 +18,7 @@ En el apartado de Pedidos de compra se visualiza un listado de los pedidos reali
 
 ![image](images/filterPurchaseOrders.png)
 
-#### 2.2.4.2.2 Artículos
+## Artículos
 
 Al pulsar el botón “Artículos” podremos ver una tabla con todas las posiciones de la orden. 
 

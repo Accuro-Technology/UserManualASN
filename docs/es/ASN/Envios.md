@@ -1,22 +1,22 @@
-# 2.2.8 Envíos 
+# Envíos 
 
-**2.2.8.1 Descripción general**
+**Descripción general**
 
 El apartado Envíos está diseñado para gestionar y monitorear los envíos dentro del sistema. Incluye dos vistas principales: Pendientes y Enviados, permitiendo un control claro y estructurado del estado de cada envío.
 
-**2.2.8.2 Funcionalidades principales**
+**Funcionalidades principales**
 
-#### 2.2.8.2.1 Vistas Disponibles
+## Vistas Disponibles
 
 - Pendientes: Muestra un listado de envíos que aún no han sido procesados ​​o enviados.
 
 - Enviados: Presenta un listado con los envíos que ya han sido gestionados y marcados como enviados.
 
-#### 2.2.8.2.2 Navegación entre vistas
+## Navegación entre vistas
 
 Los usuarios pueden cambiar entre las pestañas Pendientes y Enviados para visualizar los elementos correspondientes a cada estado.
 
-#### 2.2.8.2.3 Pendiente
+## Pendiente
 
 Listado de Envíos Pendientes:
 
@@ -35,7 +35,7 @@ Cada fila incluye la siguiente información:
 
 ![image](images/imagendeWord.png)
 
-#### 2.2.8.2.4 Enviados
+## Enviados
 
 Listado de Envíos Enviados:
 
@@ -55,7 +55,7 @@ Esta vista actúa como un registro de envíos completados, permitiéndole su con
 
 ![image](images/listEnvyEnvy.png)
 
-#### 2.2.8.2.6 Preguntas frecuentes
+## Preguntas frecuentes
 
 <b>¿Qué información se muestra en el apartado de Envíos?</b>
 

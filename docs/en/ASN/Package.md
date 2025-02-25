@@ -1,6 +1,6 @@
-#  2.2.5 Packing
+# Packing
 
-**2.2.5.1 Overview**
+**Overview**
 
 In the "Packing" section we have access to orders that have been previously confirmed in the Jaggaer system, have been received by the ASN 2.0 system and are ready to start the packing process.  
 
@@ -10,15 +10,15 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/listPacket.png)
 
-**2.2.5.2 Main Features**
+**Main Features**
 
-#### 2.2.5.2.2.1 Search Engine
+## Search Engine
 
 - Allows searching the listing by order number and shipping address attributes.
 
 ![image](images/filterPacket.png)
 
-#### 2.2.5.2.2.2 Delivery Note
+## Delivery Note
 
 - Clicking the "Delivery Notes" button on any of the packages displays the Delivery Note page where you can see the package that is pending packing or already packed. 
 
@@ -36,7 +36,7 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/imagendeWord.png)
 
-#### 2.2.5.2.2.3 Pending
+## Pending
 
 - If the package is set as pending, a menu is displayed where you can choose the number of pallets and boxes to be packed, grouping the number of items to be packed until the total number of items to be shipped is reached.
 
@@ -46,7 +46,7 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/itemsListPacket.png)
 
-#### 2.2.5.2.2.4 Boxes
+## Boxes
 
 - You can choose if you want to create boxes with the items.
 
@@ -64,7 +64,7 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/newBoxPacket.png)
 
-#### 2.2.5.2.2.5 Pallets
+## Pallets
 
 - To pack the items in pallets it will be necessary to choose the desired lots from the list and press the button to group them in pallets.
 
@@ -78,13 +78,13 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/newPalletPacket.png)
 
-#### 2.2.5.2.6 Pack an item
+## Pack an item
 
 - You can select an entire item, or several items, and pack it in its entirety using the pallet and box buttons on the right. To select it, use the check box on the left side of the item. This option is only available for items in which no subdivision of items has been generated. With the "Select all" option we will select all items that can be selected for packing in this way.
 
 ![image](images/onePositionPacket.png)
 
-#### 2.2.5.2.7 Packing
+## Packing
 
 - As soon as all items in the "Pending" section are put into boxes or pallets they appear in this list, providing the possibility to unpack the items in the list.
 
@@ -94,7 +94,7 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/unpackPacket.png)
 
-#### 2.2.5.2.8 List of packages
+## List of packages
 
 - On the right side of the page there is a list of boxes and pallets created for shipment. You can edit the data of the pallet or box itself and view the items that compose it.
 
@@ -112,7 +112,7 @@ By using the "Labels" button you can get a pdf of the existing items and boxes.
 
 ![image](images/labelPack.png)
 
-#### 2.2.5.2.9 Single level packing 
+## Single level packing 
 
 - The same item can be packed in different ways: 
 
@@ -124,7 +124,7 @@ image](images/imagendeWord.png)
 
 - If you want to pack more than one position at the same time you can checkbox as many positions as you want.
 
-#### 2.2.5.2.9.1 Two-level packaging
+## Two-level packaging
 
 ![image](images/imagendeWord.png)
 
@@ -157,7 +157,7 @@ image](images/imagendeWord.png)
 
 - This will move the packing you have done to the next section. It will not be possible to go back to the “Packing” window for those boxes and pallets that are confirmed. 
 
-#### 2.2.5.2.2.10 Packing with batch number 
+## Packing with batch number 
 
 The items should be grouped and in each group the batch number, certificate number and date of manufacture should be entered manually. If the batch number or certificate number is missing, the order cannot be confirmed, it can be completed in the “Packaging” section and the order can be confirmed.  
 
@@ -171,7 +171,7 @@ If the format is correct, it will look like this:
 
 ![image](images/loteNumberPacketCorrect.png)
 
-#### 2.2.5.2.11 Packing with many positions 
+## Packing with many positions 
 
 In this case you can take all items and pack each one in a box. In case you need a lot number, it will not allow packing in this way if it is not placed manually. 
 
@@ -179,7 +179,7 @@ From the list of packed items you can add them on pallets. You can remove the la
 
 ![image](images/morePositionsPacket.png)
 
-#### 2.2.5.2.12 Packing with serial number 
+## Packing with serial number 
 
 When there are items in the order that require serial number, a button will appear above the list of items that allows to enter large quantities of serial numbers in a short time. 
 
@@ -198,7 +198,7 @@ It will be necessary to enter all the serial numbers that are required, above th
 
 After clicking “Save” if there has been any problem the application will warn us. If everything has gone well, the serial numbers of the chosen item type will have been saved.
 
-#### 2.2.5.2.2.13 Box/Pallet Form
+## Box/Pallet Form
 
 ![image](images/imagendeWord.png)
 
@@ -226,7 +226,7 @@ image](images/imagendeWord.png)
 
 - If we press the box or pallet buttons inside the item without selecting any subpackage generated after grouping we can indicate the quantity we want for the new package we are going to create.
 
-#### 2.2.5.2.13 Frequently Asked Questions 
+## Frequently Asked Questions 
 
 <b>How to search for an order? </b>
 

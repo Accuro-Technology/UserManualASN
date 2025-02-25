@@ -1,6 +1,6 @@
 # 2.2.5 Empaquetar
 
-**2.2.5.1 Descripción general**
+**Descripción general**
 
 En el apartado "Empaquetar" tenemos acceso a las órdenes que han sido previamente confirmadas en el sistema de Jaggaer, han sido recibidas por el sistema de ASN 2.0 y están listas para comenzar el proceso de empaquetado.  
 
@@ -10,15 +10,15 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/listPacket.png)
 
-**2.2.5.2 Funcionalidades principales**
+**Funcionalidades principales**
 
-#### 2.2.5.2.1 Buscador
+## Buscador
 
 - Permite realizar búsquedas en el listado por los atributos de número de orden y dirección de envío.
 
 ![image](images/filterPacket.png)
 
-#### 2.2.5.2.2 Nota de envío
+## Nota de envío
 
 - Al pulsar el botón "Delivery Notes" en cualquiera de los paquetes se visualiza la página de Nota de envío en la que se puede ver el paquete que está pendiente de empaquetar o ya empaquetado. 
 
@@ -36,7 +36,7 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/imagendeWord.png)
 
-#### 2.2.5.2.3 Pendiente
+## Pendiente
 
 - En caso de que el paquete esté como pendiente permite desplegar un menú en el que se puede elegir el número de pallets y de cajas que se quiere empaquetar, agrupando el número de items que se desean hasta conseguir el total descrito de los items a enviar.
 
@@ -46,7 +46,7 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/itemsListPacket.png)
 
-#### 2.2.5.2.4 Cajas
+## Cajas
 
 - Se puede escoger si se desean crear cajas con los elementos.
 
@@ -64,7 +64,7 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/newBoxPacket.png)
 
-#### 2.2.5.2.5 Pallets
+## Pallets
 
 - Para empaquetar los items en pallets será necesario elegir los lotes del listado que se desean y presionar el botón para agruparlos en pallets.
 
@@ -78,13 +78,13 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/newPalletPacket.png)
 
-#### 2.2.5.2.6 Empaquetar una posición
+## Empaquetar una posición
 
 - Se permite seleccionar una posición completa, o varias, y empaquetarla en su totalidad utilizando los botones de pallet y caja a la derecha. Para seleccionarla, debemos usar el check que tiene la posición a la izquierda. Esta opción sólo está disponible para posiciones en las cuales no se ha generado ninguna subdivisión de ítems. Con la opción "Seleccionar todo" seleccionaremos todas las posiciones que se puedan seleccionar para empaquetar de esta manera.
 
 ![image](images/onePositionPacket.png)
 
-#### 2.2.5.2.7 Empaquetado
+## Empaquetado
 
 - En el momento en el que se meten en cajas o pallets todos los items del apartado "Pendientes" aparecen en este listado, proporcionando la posibilidad de desempaquetar los los items del listado.
 
@@ -94,7 +94,7 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/unpackPacket.png)
 
-#### 2.2.5.2.8 Listado de paquetes
+## Listado de paquetes
 
 - A la derecha de la página se encuentra el listado de las cajas y pallets creados para el envío. Se permite editar los datos del propio pallet o caja y visualizar los items que los componen.
 
@@ -112,7 +112,7 @@ Mediante el botón "Etiquetas" se puede sacar un pdf de los items y las cajas ex
 
 ![image](images/labelPack.png)
 
-#### 2.2.5.2.9 Empaquetado a un solo nivel 
+## Empaquetado a un solo nivel 
 
 - Sobre una misma posición se puede empaquetar de diferentes maneras:  
 
@@ -122,7 +122,7 @@ Mediante el botón "Etiquetas" se puede sacar un pdf de los items y las cajas ex
 
 - Si se quieren empaquetar más de una posición al mismo tiempo podremos marcar con el checkbox tantas posiciones como deseemos.  
 
-#### 2.2.5.2.9.1  Emapaquetado a dos niveles
+##  Emapaquetado a dos niveles
 
 ![image](images/imagendeWord.png)
 
@@ -155,7 +155,7 @@ Con este botón sacaremos las etiquetas de Cajas y Pallets que contengan items.
 
 - Esto moverá el empaquetamiento que hayamos realizado al siguiente apartado. No será posible retroceder de vuelta a la ventana de “Empaquetamiento” aquellas cajas y pallets que se confirmen. 
 
-#### 2.2.5.2.10 Empaquetado con número de lote 
+## Empaquetado con número de lote 
 
 Se deberá agrupar los ítems y en cada grupo se deberá introducir de forma manual el número de lote, el número del certificado y la fecha de fabricación. En caso de que falte por colocar el número de lote o de certificado no se permitirá confirmar el pedido, se puede completar en la sección de “Empaquetado” y así poder confirmar el pedido.  
 
@@ -169,7 +169,7 @@ En caso de que el formato sea correcto se verá de esta manera:
 
 ![image](images/loteNumberPacketCorrect.png)
 
-#### 2.2.5.2.11 Empaquetado con muchas posiciones 
+## Empaquetado con muchas posiciones 
 
 En este caso se puede coger todos los elementos y empaquetar a cada uno en un a caja. En caso de necesitar número de lote no permitirá el empaquetado de esta manera si no se coloca manualmente. 
 
@@ -177,7 +177,7 @@ Desde el listado de empaquetados se puede ir agregando en pallets. Se puede saca
 
 ![image](images/morePositionsPacket.png)
 
-#### 2.2.5.2.12 Empaquetado con número de serie 
+## Empaquetado con número de serie 
 
 Cuando en la orden haya posiciones que requeiran número de serie, aparecerá un botón encima de la lista de posiciones que permite introducir grandes cantidades de números de serie en poco tiempo. 
 
@@ -196,7 +196,7 @@ Será necesario introducir la totalidad de números de serie que se requieren, e
 
 Tras pulsar “Guardar” si ha habido algún problema el aplicativo nos avisará. Si todo ha ido bien, los números de serie del tipo de ítem elegido habrán sido guardados. 
 
-#### 2.2.5.2.13 Formulario de caja/pallet
+## Formulario de caja/pallet
 
 ![image](images/imagendeWord.png)
 
@@ -224,7 +224,7 @@ Tras pulsar “Guardar” si ha habido algún problema el aplicativo nos avisar�
 
 - Si pulsamos los botones de caja o pallet que están dentro de la posición sin seleccionar ningún subpaquete generado tras agrupar podremos indicar la cantidad que deseamos para el nuevo paquete que vamos a crear.  
 
-#### 2.2.5.2.14 Preguntas frecuentes
+## Preguntas frecuentes
 
 <b>¿Cómo buscar una orden?</b>
 En la parte superior de la página existe un buscador que permite hacer una búsuqeda por cualquiera de sus atributos principales.
