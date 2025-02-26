@@ -6,13 +6,15 @@ ASN(Advanced Shipping Notice) es una aplicación que proporciona la posibilidad 
 
 Mediante la petición de un envío en la aplicación JAG se realiza el pedido, este llega a la aplicación ASN para llevar su control y en caso de estar todo correcto permite la conexión con la aplicación SAP para terminar el proceso de envío y saber que ha llegado correctamente.
 
-![image](ASN/images/ASN_home.png)
+![image](ASN/images/img-tke/imagen%20(1).png)
 
 ## REFERENCIAS
 
+[LOGIN](ASN/Login.md) 
+
 [CAJAS](ASN/Cajas.md) 
 
-[LOGIN](ASN/Login.md) 
+[INQUILINO](ASN/Inquilino.md) 
 
 [EMPAQUETAR](ASN/Empaquetar.md) 
 
@@ -25,5 +27,3 @@ Mediante la petición de un envío en la aplicación JAG se realiza el pedido, e
 [PEDIDOS DE COMPRA](ASN/Pedidos-de-compra.md)
 
 [ENVIOS](ASN/Envios.md) 
-
-[INQUILINO](ASN/Inquilino.md) 
