@@ -22,6 +22,9 @@ This will open a form where we must enter the following data:
 
 -  Email address
 
+![image](images/img-tke/cap-user-form.png)
+
+
 Additionally, we will have to grant the user the necessary permissions.
 To do this, we will click on the "Roles" tab and select "admin".
 

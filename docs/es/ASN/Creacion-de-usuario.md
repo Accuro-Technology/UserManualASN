@@ -22,6 +22,9 @@ Esto abrirá un formulario donde debemos introducir los siguientes datos:
 
 -   Dirección de correo
 
+![image](images/img-tke/cap-user-form.png)
+
+
 Además, tendremos que otorgar al usuario los permisos necesarios.
 Para ello, pulsaremos la pestaña "Roles" y seleccionaremos "admin".
 
