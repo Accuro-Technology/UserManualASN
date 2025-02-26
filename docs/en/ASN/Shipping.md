@@ -33,7 +33,7 @@ Each row includes the following information:
 - Send: Changes the shipment status to "Sent" and automatically moves it to the Sent tab.
 - Delete: Allows you to delete this shipment. TKE will be notified that the ASN needs to be deleted. All packages included in this shipment will appear again in "Pending Shipment".
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-envio.png)
 
 ## Sent
 

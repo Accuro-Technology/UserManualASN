@@ -34,124 +34,74 @@ The Packing section displays a list of the packages made, providing the order nu
 
  date of shipment. 
 
-![image](images/imagendeWord.png)
-
-## Pending
-
-- If the package is set as pending, a menu is displayed where you can choose the number of pallets and boxes to be packed, grouping the number of items to be packed until the total number of items to be shipped is reached.
-
-![image](images/pendantPacket.png)
-
-- The number of items per box or pallet must be entered and the application itself provides a list with the groups of items. A lot number identifying the package can be proposed.
-
-![image](images/itemsListPacket.png)
-
-## Boxes
-
-- You can choose if you want to create boxes with the items.
-
-![image](images/boxPacket.png)
-
-- A menu appears that allows you to insert the chosen items in an existing box searched in the search engine or create a new box and insert the chosen items in it.
-
-![image](images/addBoxPacket.png)
-
-- In case of not placing the number of groups to pack the menu to pack appears with the total number of batches to pack.
-
-![image](images/addBoxItemPacket.png)
-
-- To create a box press "+ New box" and this menu appears. You can assign a box to each item or assign a box to all items by clicking on the tick above the menu.
-
-![image](images/newBoxPacket.png)
-
-## Pallets
-
-- To pack the items in pallets it will be necessary to choose the desired lots from the list and press the button to group them in pallets.
-
-![image](images/addPalletItemPacket.png)
-
-- In the same way as the boxes, when converting them into pallets a menu appears that allows you to put them in an existing pallet or create a new pallet to store them there.
-
-![image](images/addPalletPacket.png)
-
-- To create a pallet press "+ New pallet" and this menu appears. You can assign a pallet to each item or assign a pallet to all items by clicking on the tick above the menu.
-
-![image](images/newPalletPacket.png)
-
-## Pack an item
-
-- You can select an entire item, or several items, and pack it in its entirety using the pallet and box buttons on the right. To select it, use the check box on the left side of the item. This option is only available for items in which no subdivision of items has been generated. With the "Select all" option we will select all items that can be selected for packing in this way.
-
-![image](images/onePositionPacket.png)
-
-## Packing
-
-- As soon as all items in the "Pending" section are put into boxes or pallets they appear in this list, providing the possibility to unpack the items in the list.
-
-![image](images/packetPacket.png)
-
- You can unpack any of the items using the following icon. 
-
-![image](images/unpackPacket.png)
-
-## List of packages
-
-- On the right side of the page there is a list of boxes and pallets created for shipment. You can edit the data of the pallet or box itself and view the items that compose it.
-
-![image](images/listPackPacket.png)
-
-- Selecting one of the items in this list allows you to delete them and if they are boxes allows you to put them in a box or pallet.
-
-image](images/optionsPackPackPacket.png)
-
-<b>In case of confirming the order but not finishing packing the whole list of items, the list of pending items will appear in the list of the "Partial shipments" section of the application. </b>
-
-By using the "Labels" button you can get a pdf of the existing items and boxes.
-
-![image](images/labelPacket.png)
-
-![image](images/labelPack.png)
+![image](images/img-tke/cap-empaquetar.png)
 
 ## Single level packing 
 
 - The same item can be packed in different ways: 
 
-![ 
-
-image](images/imagendeWord.png)
+![image](images/img-tke/cap-1nive-paq-pos.png)
 
 - When you apply to the checkbox using the box or pallet buttons on the right you could pack the whole item. 
 
 - If you want to pack more than one position at the same time you can checkbox as many positions as you want.
 
+## Box/Pallet Form
+
+![image](images/img-tke/cap-empaquetar-modalCaja.png)
+
+- Once we click on the box or pallet button this box will be displayed where we can decide if we want to enter the items in a box previously created in this order or if we prefer to create a new box by clicking on the “+ New box/pallet” button 
+
+! [image](images/img-tke/cap-empaquetar-modalNuevaCaja.png)
+
+- If we press new box/pallet we will see this box or pallet creation form (depending on the button pressed). In this form when choosing a box/pallet type we will be selecting one of the generic types previously created. The fields will be autocompleted with the information of the previously created box/pallet, however any field can be modified. 
+
+- At the top of the form there are two checkboxes to select if we want to create a single package for all the selected items or if we want to create a package for each item.  
+
+![image](images/img-tke/cap-1nivel-agrupar.png)
+
+- If we want to create different packages for the same position we can use the “Group” option. Packages will be created according to the number we indicate once we press the “Group” button 
+
+![image](images/img-tke/cap-1nivel-pack-agrupados.png)
+
+- The subpackages that have been created after pressing the “Group” option can be packed using the box or pallet buttons that appear when the position is displayed. 
+
+![image](images/img-tke/cap-1nivel-item.png)
+
+- Once an item is packed we can either unpack it by clicking the box button or delete it by clicking the trash can button.  
+
+![image](images/img-tke/cap-empaquetar-modalCantidad.png)
+
+- If we press the box or pallet buttons inside the item without selecting any subpackage generated after grouping we can indicate the quantity we want for the new package we are going to create.
+
 ## Two-level packaging
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-empaquetar-arbol4Cajas.png)
 
 - The packages that are created will appear in a tree on the right side of the screen. With these packages if we click on the pencil a form will appear to edit them.  
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-2nivel-editar.png)
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-2nivel-arbol-4-cajas.png)
 
 - When selecting several packages we can click the box/pallet button and insert the selected packages into a second package. As a general rule this will be done by pressing the pallet button to palletize boxes.  
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-2nivel-eliminar-paquetes.png)
 
 - At any time we can select as many pallets and boxes as we want and delete them by pressing the trash can button. If we delete a package with items inside, they are unpacked.
 
 - If we delete a package with packages inside, the child packages will not be deleted.
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-empaquetar-etiqueta.png)
 
 - In this screen we can remove the first level labels by clicking on “Labels” and then on “Box Labels”. 
 With this button we will get the labels of Boxes and Pallets that contain items. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-2nivel-pendiente-empaquetado.png)
 
 - Above the list of items we see the pending and packed tabs. In “Pending” appear those items that have not yet been fully packed. In “Packed” those that have been fully packed. 
 
-image](images/imagendeWord.png)
+![image](images/img-tke/cap-confirmar.png)
 
 - To move what has been packed to the “Pending Shipment” tab, click the “Confirm” button.  
 
@@ -198,33 +148,7 @@ It will be necessary to enter all the serial numbers that are required, above th
 
 After clicking “Save” if there has been any problem the application will warn us. If everything has gone well, the serial numbers of the chosen item type will have been saved.
 
-## Box/Pallet Form
-
-![image](images/imagendeWord.png)
-
-- Once we click on the box or pallet button this box will be displayed where we can decide if we want to enter the items in a box previously created in this order or if we prefer to create a new box by clicking on the “+ New box/pallet” button 
-
-! [image](images/imagendeWord.png)
-
-- If we press new box/pallet we will see this box or pallet creation form (depending on the button pressed). In this form when choosing a box/pallet type we will be selecting one of the generic types previously created. The fields will be autocompleted with the information of the previously created box/pallet, however any field can be modified. 
-
-- At the top of the form there are two checkboxes to select if we want to create a single package for all the selected items or if we want to create a package for each item.  
-
-image](images/imagendeWord.png)
-
-- If we want to create different packages for the same position we can use the “Group” option. Packages will be created according to the number we indicate once we press the “Group” button 
-
-![image](images/imagendeWord.png)
-
-- The subpackages that have been created after pressing the “Group” option can be packed using the box or pallet buttons that appear when the position is displayed. 
-
-![image](images/imagendeWord.png)
-
-- Once an item is packed we can either unpack it by clicking the box button or delete it by clicking the trash can button.  
-
-![image](images/imagendeWord.png)
-
-- If we press the box or pallet buttons inside the item without selecting any subpackage generated after grouping we can indicate the quantity we want for the new package we are going to create.
+It is also possible to enter them in the same way that the batch numbers have been entered.
 
 ## Frequently Asked Questions 
 

@@ -148,7 +148,7 @@ Será necesario introducir la totalidad de números de serie que se requieren, e
 
 Tras pulsar “Guardar” si ha habido algún problema el aplicativo nos avisará. Si todo ha ido bien, los números de serie del tipo de ítem elegido habrán sido guardados. 
 
-Tambien es posible introducirlos de la misma maner que se han introducido los numeros de lote.
+Tambien es posible introducirlos de la misma manera que se han introducido los numeros de lote.
 
 ## Preguntas frecuentes
 
