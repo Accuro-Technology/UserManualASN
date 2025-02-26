@@ -20,7 +20,7 @@ The Pending Shipment section is designed to manage shipments that have not yet b
 
 If there are two or more orders with the same destination, they can be sent together, and the list of pallets and boxes of the orders together will be placed on the right side of the page.
 
-![images](images/listPendantEnvy.png)
+![images](images/img-tke/cap-pendEnvio-lista.png)
 
 ## Pallet and box management
 
@@ -30,7 +30,7 @@ At any time, we can select boxes from the tree that go to the same floor and mov
 
 This button will open a pallet creation window identical to the one explained in “Packing”. It is also possible to select boxes that are already on a pallet to move them to another one.
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-asignar.png)
 
 Section: Join pallets
 
@@ -40,13 +40,13 @@ In the window prior to “Pending shipment”: “Pack” or “Partial Shipment
 
 Once we can see said pallets in this window, we select them and click “Join”. This will create a single pallet that contains all the items from the pallets that have been joined together.
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-juntarPallets.png)
 
 Section: Delete pallets
 
 Pallets that contain boxes can be deleted. Deleting boxes or pallets that contain items is not allowed.
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-eliminar.png)
 
 Section: Tree filters
 
@@ -62,7 +62,7 @@ Labels section:
 
 We can get the first level labels by clicking “Order Labels” and then “Box Labels”. We can also get the pallet labels by clicking “Pallet Labels”.
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-etiquetas.png)
 
 Section: Send ASN
 
@@ -72,40 +72,9 @@ Any combination of first and second level boxes and pallets can be included in a
 
 Packages that are not selected are not included in the ASN and remain on this “Pending Shipment” screen.
 
-![image](images/imagendeWord.png)
-
-## Label Generation
-
-- Once the orders have been selected, the following buttons are enabled for label generation:
-Item and Box Labels: Generates individual labels for the items and boxes included in the shipment.
-
-- Pallet Labels: Generates labels to identify the pallets associated with the shipment.
-
-![Screenshot_2025-01-14_165638](images/labelEnvy.png)
-
-![Screenshot_2025-01-14_165638](images/labelOptionsEnvy.png)
-
-![Screenshot_2025-01-14_165638](images/lavelFromEnvy.png)
-
-## ASN Generation
-
-- Press the ASN button to create the shipping notification document.
-
-When you press it, all the boxes to be sent must be placed on pallets. If they are not this way, this error will appear:
-
-![Screenshot_2025-01-14_165638](images/addEnvyAlert.png)
-
-If the boxes have been inserted on pallets, when you press the "ASN" button, the confirmation message appears indicating that the process has been successful.
-
-![Screenshot_2025-01-14_165638](images/addEnvyCorrect.png)
+![image](images/img-tke/cap-pendEnvio-asn.png)
 
 ## Frequently asked questions
-
-<b>How can I remove a pallet or box from the order?</b>
-
-To delete a pallet or box, select the desired one and click on the delete button.
-
-![image](images/listPalletEnvy.png)
 
 <b>Can a pallet or box be edited? </b>
 

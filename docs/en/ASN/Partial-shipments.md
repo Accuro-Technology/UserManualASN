@@ -6,28 +6,10 @@ The Partial Shipments window is identical to the Packing window, except that her
 
 **Main features**
 
-## Delivery Note tab
+## Acctual packing
 
-- Package search
 
-Search criteria:
-
-- Package name or code.
-- Shipping date.
-- Action buttons:
-
-Filter: Filters the list of packages according to the entered criteria.
-
-- Package list.
-
-Shows the packages associated with the selected purchase order.
-
-Each row of the list includes information such as:
-- Package name or code.
-- Shipping date
-- Other relevant details of the package.
-
-The "Delivery Note" section works in the same packaging scheme as in the "Packing" section of this document.
+The operation of this tab is exactly the same as explained in the previous point.
 
 ![image](images/orderPendantPartialEnvy.png)
 
