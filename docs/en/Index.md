@@ -14,6 +14,8 @@ application to complete the shipping process and for it to know that it has arri
 
 ## REFERENCES 
 
+[USER CREATE](ASN/UserCreate.md)
+
 [LOGIN](ASN/Login.md) 
 
 [TENANT](ASN/Tenant.md) 
@@ -24,10 +26,10 @@ application to complete the shipping process and for it to know that it has arri
 
 [PALLETS](./ASN/pallets.md) 
 
-[PARTIAL-SHIPMENTS](ASN/Partial-shipments.md) 
+[PARTIAL SHIPMENTS](ASN/Partial-shipments.md) 
 
-[PENDING-SHIPMENT](ASN/Pending-shipment.md) 
+[PENDING SHIPMENT](ASN/Pending-shipment.md) 
 
-[PURCHASE-ORDERS](ASN/Purchase-orders.md)
+[PURCHASE ORDERS](ASN/Purchase-orders.md)
 
 [SHIPPING](ASN/Shipping.md) 
