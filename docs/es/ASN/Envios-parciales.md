@@ -6,28 +6,9 @@ La ventana de Envíos Parciales es idéntica a la de Empaquetar, con la diferenc
 
 **Funcionalidades principales**
 
-## Pestaña Nota de Entrega
+## Embalaje actual
 
-- Buscador de embalajes
-
-   Criterios de búsqueda:
-
-   - Nombre o código del embalaje.
-   - Fecha de envío.
-   - Botones de acción:
-   
-      Filtrar: Filtra el listado de embalajes según los criterios ingresados.
-
-- Listado de embalajes.
-
-   Muestra los embalajes asociados a la orden de pedido seleccionada.
-
-   Cada fila del listado incluye información como:
-   - Nombre o código del embalaje.
-   - Fecha de envío
-   - Otros detalles relevantes del embalaje.
-
-El funcionamiento del apartado "Delivery Note" consiste en el mismo esquema de empaquetados que en la sección de "Empaquetar" de este documento. 
+El funcionamiento de esta pestaña es exactamente igual al explicado en el punto anterior.
 
 ![image](images/orderPendantPartialEnvy.png)
 

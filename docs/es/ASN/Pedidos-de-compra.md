@@ -22,4 +22,4 @@ En el apartado de Pedidos de compra se visualiza un listado de los pedidos reali
 
 Al pulsar el botón “Artículos” podremos ver una tabla con todas las posiciones de la orden. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pedido-de-compra.png)

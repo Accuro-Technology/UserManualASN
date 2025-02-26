@@ -10,7 +10,7 @@ By requesting a shipment in the JAG application, the order is placed, it then re
 ASN application for control. If everything is correct, it allows for connection with the SAP 
 application to complete the shipping process and for it to know that it has arrived properly.
 
-![image](ASN/images/img-tke/imagen%20(1).png)
+![image](ASN/images/img-tke/cap-index.png)
 
 ## REFERENCES 
 

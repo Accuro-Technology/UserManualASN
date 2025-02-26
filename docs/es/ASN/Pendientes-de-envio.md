@@ -20,7 +20,7 @@ El apartado Pendientes de Envío está diseñado para gestionar los envíos que 
 
   En caso de existir una dos o más ordenes con el mismo destino se podrán mandar en conjunto, y se colocará a la derecha de la página el listado con los pallets y las cajas de las ordenes juntas.
 
-![images](images/listPendantEnvy.png)
+![images](images/img-tke/cap-pendEnvio-lista.png)
 
 ## Gestión de pallets y cajas
 
@@ -30,7 +30,7 @@ En todo momento podremos seleccionar cajas del árbol que vayan a una misma plan
 
 Este botón abrirá una ventana de creación d epallet idéntica a la explicada en “Empaquetar”. También se permite seleccionar cajas que ya están dentro de un pallet para moverlas a otro. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-asignar.png)
 
 Seccion: Juntar pallets 
 
@@ -39,13 +39,13 @@ Si se diese el caso de que queremos enviar items de distintos pedidos de compra 
 En la ventana previa a “Pendiente de envío”: “Empaquetar” o “Envios Parciales” debemos empaquetar dichos item en su propio pallet y confirmarlos, para poder traerlos a “Pendiente de Envio”. 
 Una vez podamos visualizar dichos pallets en esta ventana, los seleccionamos y pulsamos “Juntar”. Esto creará un sólo pallet que contenga todos los items de los pallets que han sido juntados. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-juntarPallets.png)
 
 Seccion: Eliminar pallets 
 
 Se podrán eliminar pallets que contengan cajas. No se permite eliminar Cajas ni Pallets que contengan items. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-eliminar.png)
 
 Seccion: Filtros del árbol 
 
@@ -61,7 +61,7 @@ Sección etiquetas:
 
 Podremos sacar las etiquetas de primer nivel pulsando “Etiquetas de Orden” y después “Etiquetas de Cajas”. También podremos sacar las etiquetas de pallets pulsando “Etiquetas de Pallets”. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-pendEnvio-etiquetas.png)
 
 Seccion: Enviar ASN 
 
@@ -71,41 +71,9 @@ En un envío se permite incluir cualquier combinación de cajas y pallets de pri
 
 Los paquetes que no se seleccionen no se incluyen en el ASN y permanecen en esta pantalla de “Pendiente de Envío”. 
 
-![image](images/imagendeWord.png)
-
-
-
-## Generación de etiquetas
-
-- Una vez seleccionadas las ordenes, se habilitan los siguientes botones para la generación de etiquetas:
-Etiquetas de Artículos y Cajas: Genera etiquetas individuales para los artículos y las cajas incluidas en el envío.
-
-- Etiquetas de Pallets: Genera etiquetas para identificar los pallets asociados al envío.
-
-![Captura_de_pantalla_2025-01-14_165638](images/labelEnvy.png)
-
-![Captura_de_pantalla_2025-01-14_165638](images/labelOptionsEnvy.png)
-
-![Captura_de_pantalla_2025-01-14_165638](images/lavelFromEnvy.png)
-
-## Generación de ASN
-
-- Presione el botón ASN para crear el documento de notificación de envío.
-
-  En el momento de presionarlo se debe colocar todas las cajas a enviar en pallets, en caso de que no estén de este modo aparecerá este error: 
-
-![Captura_de_pantalla_2025-01-14_165638](images/addEnvyAlert.png)
-
-  En el caso en el que se hayan insertado las cajas en pallets, al pulsar en el botón "ASN" aparece el mensaje de confirmación que indica que ha ido el proceso correctamente. 
-
-![Captura_de_pantalla_2025-01-14_165638](images/addEnvyCorrect.png)
+![image](images/img-tke/cap-pendEnvio-asn.png)
 
 ## Preguntas frecuentes
-
-<b>¿Cómo puedo eliminar un pallet o caja de la orden?</b>
-Para eliminar un pallet o caja se debe seleccionar el que se desea y clicar en el botón borrar.
-
-![image](images/listPalletEnvy.png)
 
 <b>¿Se puede editar un pallet o caja?</b>
 Se puede editar cualquier pallet o caja en el botón de edición y dentro del menú que aparece.

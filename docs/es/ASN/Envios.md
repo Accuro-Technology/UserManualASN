@@ -33,7 +33,7 @@ Cada fila incluye la siguiente información:
         - Enviar: Cambia el estado del envío a "Enviado" y lo mueve automáticamente a la pestaña Enviados.
         - Borrar: Permite eliminar este envío. Se notificará a TKE de que el ASN debe ser borrado. Todos los paquetes incluidos en este envío volverán a aparecer en “Pendiente de Envío”. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-envio.png)
 
 ## Enviados
 
