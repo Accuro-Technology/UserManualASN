@@ -1,41 +1,39 @@
-# Gestión de usuarios
+# User management
 
-## Creación de usuarios
+## User creation
 
-Para acceder a la pantalla de gestiones de usuarios, en el menú debemos pulsar "Administración", "Administración de identidad" y "Usuarios".
+To access the user management screen, in the menu we must press "Administration", "Identity management" and "Users".
 
 ![image](images/img-tke/cap-user-index.png)
 
-Una vez dentro, podremos ver un listado de todos los usuarios existentes.
+Once inside, we can see a list of all existing users.
 
-Para crear nuevos usuarios, pulsaremos el botón "Nuevo usuario" de la esquina superior derecha.
+To create new users, we will press the "New User" button in the upper right corner.
 
 ![image](images/img-tke/cap-user-list.png)
 
-Esto abrirá un formulario donde debemos introducir los siguientes datos:
+This will open a form where we must enter the following data:
 
--   Nombre de usuario:
+-  Username:
 
--   Nombre y apellido
+-  First and last name
 
--   Contraseña
+-  Password
 
--   Dirección de correo
+-  Email address
 
-Además, tendremos que otorgar al usuario los permisos necesarios.
-Para ello, pulsaremos la pestaña "Roles" y seleccionaremos "admin".
+Additionally, we will have to grant the user the necessary permissions.
+To do this, we will click on the "Roles" tab and select "admin".
 
 ![image](images/img-tke/cap-user-roles.png)
 
-Finalmente pulsamos "Guardar"
+Finally we click "Save"
 
 
-## Edición de usuarios
+## User editing
 
-Al pulsar el desplegable "Acciones" se mostrarán multitud de opciones sobre el usuario.
+By clicking the "Actions" drop-down menu, a multitude of options about the user will be displayed.
 
-Principalmente usaremos "Editar" para modificar datos del usuario y "Borrar" para eliminar el usuario. 
+We will mainly use "Edit" to modify user data and "Delete" to delete the user. 
 
 ![image](images/img-tke/cap-user-edit.png)
-
-

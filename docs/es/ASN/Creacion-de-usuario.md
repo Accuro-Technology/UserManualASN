@@ -37,5 +37,3 @@ Al pulsar el desplegable "Acciones" se mostrarán multitud de opciones sobre el 
 Principalmente usaremos "Editar" para modificar datos del usuario y "Borrar" para eliminar el usuario. 
 
 ![image](images/img-tke/cap-user-edit.png)
-
-
