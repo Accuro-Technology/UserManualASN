@@ -64,6 +64,13 @@ The Packing section displays a list of the packages made, providing the order nu
 
 ![image](images/img-tke/cap-1nivel-pack-agrupados.png)
 
+- Using the “Select” option we can check any number of unpacked items to pack them.
+If “Select” is pressed and the input is empty, all items are deselected. If a number greater than the total number of items is entered, all items are selected. 
+
+The selection does not count the packed items. If there are 8 items, and 4 of them are already packed, by entering “4” in the input, we can select the remaining 4.
+
+![image](images/img-tke/cap-empaquetar-seleccionarVarios.png)
+
 - The subpackages that have been created after pressing the “Group” option can be packed using the box or pallet buttons that appear when the position is displayed. 
 
 ![image](images/img-tke/cap-1nivel-item.png)

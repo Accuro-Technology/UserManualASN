@@ -64,6 +64,13 @@ En el apartado de Empaquetar se visualiza un listado los paquetes realizados pro
 
 ![image](images/img-tke/cap-1nivel-pack-agrupados.png)
 
+- Utilizando la opción "Seleccionar" podremos checkear el número que queramos de items no empaquetados para empaquetarlos.
+Si se pulsa "Seleccionar" y el input está vacío, se desmarcan todos los items. Si se introduce un número mayor al total de items, se seleccionan todos. 
+
+La selección no cuenta los ítems empaquetados. Si hubiese 8 items, y 4 de ellos están ya empaquetados, al introducir en el input un "4", podremos seleccionar los 4 restantes.
+
+![image](images/img-tke/cap-empaquetar-seleccionarVarios.png)
+
 - Los subpaquetes que han sido creados tras pulsar la opción “Agrupar” se pueden empaquetar usando los botones caja o pallet que aparecen al desplegar la posición. 
 
 ![image](images/img-tke/cap-1nivel-item.png)
