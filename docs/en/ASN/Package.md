@@ -52,7 +52,7 @@ The Packing section displays a list of the packages made, providing the order nu
 
 - Once we click on the box or pallet button this box will be displayed where we can decide if we want to enter the items in a box previously created in this order or if we prefer to create a new box by clicking on the “+ New box/pallet” button 
 
-! [image](images/img-tke/cap-empaquetar-modalNuevaCaja.png)
+! [image](images/img-tke/cap-empaquetar-modalNuevaCaja.png) 
 
 - If we press new box/pallet we will see this box or pallet creation form (depending on the button pressed). In this form when choosing a box/pallet type we will be selecting one of the generic types previously created. The fields will be autocompleted with the information of the previously created box/pallet, however any field can be modified. 
 
@@ -140,18 +140,18 @@ From the list of packed items you can add them on pallets. You can remove the la
 
 When there are items in the order that require serial number, a button will appear above the list of items that allows to enter large quantities of serial numbers in a short time. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-numserie-bulk-boton.png)
 
 When the button is clicked, a window opens that allows us to choose for which type of item we want to enter serial numbers. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-numserie-modal1.png)
 
 When you select an item, a text field will appear where you can enter the serial numbers. 
 
 They can be separated by line breaks or by semicolons (“;”). 
 It will be necessary to enter all the serial numbers that are required, above the text field we can see how many serial numbers we have entered and what is the total required. 
 
-![image](images/imagendeWord.png)
+![image](images/img-tke/cap-numserie-modal2.png)
 
 After clicking “Save” if there has been any problem the application will warn us. If everything has gone well, the serial numbers of the chosen item type will have been saved.
 

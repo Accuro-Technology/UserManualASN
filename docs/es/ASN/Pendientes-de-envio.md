@@ -81,6 +81,6 @@ Se puede editar cualquier pallet o caja en el botón de edición y dentro del me
 ![image](images/createPalletEnvy.png)
 
 <b>¿Cómo se crea el ASN de una orden?</b>
-Para que la aplicación permita crear el ASN se debe poner tick en una orden y es necesario que esta esté en pallets todo el pedido. En caso de no estar parte del pedido en pallets, se colocará un tick de las cajas y se pulsará el botón "Agregar Pallet" para crear un pallet con estas.
+Para que la aplicación permita crear el ASN se debe poner tick en una orden y es necesario que esta esté en pallets todo el pedido. En caso de no estar parte del pedido en pallets, se colocará un tick de las cajas y se pulsará el botón "Agregar Pallet" para crear un pallet con estas. 
 
 ![image](images/optionsEnvy.png)
